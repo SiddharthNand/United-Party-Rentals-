@@ -6,42 +6,42 @@ export default function NavBar () {
     return (
         <>
         <Navbar bg="" expand="lg">
-  <Navbar.Brand href="#"><img src="https://i.imgur.com/oIgfTxi.png" alt='logo' className='logo'></img></Navbar.Brand>
+  <Navbar.Brand href="/"><img src="https://i.imgur.com/oIgfTxi.png" alt='logo' className='logo'></img></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <NavDropdown title="Rentals" id="basic-nav-dropdown" >
+    <NavDropdown title="Rentals" id="basic-nav-dropdown">
         <table>
           <tr>
-            <td><NavDropdown.Item>Bar & Beverage</NavDropdown.Item></td>
-            <td><NavDropdown.Item>Canopy</NavDropdown.Item></td>
+          <td><NavDropdown.Item href="/bar" className='dropdown'>Bar & Beverage</NavDropdown.Item></td>
+            <td><NavDropdown.Item href="/canopy" className='dropdown'>Canopy</NavDropdown.Item></td>
           </tr>
           <tr>
-            <td><NavDropdown.Item>Chairs</NavDropdown.Item></td>
-            <td><NavDropdown.Item>China</NavDropdown.Item></td>
+            <td><NavDropdown.Item className='dropdown'>Chairs</NavDropdown.Item ></td>
+            <td><NavDropdown.Item className='dropdown'>China</NavDropdown.Item></td>
           </tr>
           <tr>
-            <td><NavDropdown.Item>Concession</NavDropdown.Item></td>
-            <td><NavDropdown.Item>Cookware</NavDropdown.Item></td>
+            <td><NavDropdown.Item className='dropdown'>Concession</NavDropdown.Item></td>
+            <td><NavDropdown.Item className='dropdown'>Cookware</NavDropdown.Item></td>
           </tr>
           <tr>
-            <td><NavDropdown.Item>Decoration</NavDropdown.Item></td>
-            <td><NavDropdown.Item>Flatware</NavDropdown.Item></td>
+            <td><NavDropdown.Item className='dropdown'>Decoration</NavDropdown.Item></td>
+            <td><NavDropdown.Item className='dropdown'>Flatware</NavDropdown.Item></td>
           </tr>
           <tr>
-            <td><NavDropdown.Item>Glassware</NavDropdown.Item></td>
-            <td><NavDropdown.Item>Labor</NavDropdown.Item></td>
+            <td><NavDropdown.Item className='dropdown'>Glassware</NavDropdown.Item></td>
+            <td><NavDropdown.Item className='dropdown'>Labor</NavDropdown.Item></td>
           </tr>
           <tr>
-            <td><NavDropdown.Item>Linen</NavDropdown.Item></td>
-            <td><NavDropdown.Item>Misc</NavDropdown.Item></td>
+            <td><NavDropdown.Item className='dropdown'>Linen</NavDropdown.Item></td>
+            <td><NavDropdown.Item className='dropdown'>Misc</NavDropdown.Item></td>
           </tr>
           <tr>
-            <td><NavDropdown.Item>Serving</NavDropdown.Item></td>
-            <td><NavDropdown.Item>Staging & Flooring</NavDropdown.Item></td>
+            <td><NavDropdown.Item className='dropdown'>Serving</NavDropdown.Item></td>
+            <td><NavDropdown.Item className='dropdown'>Staging & Flooring</NavDropdown.Item></td>
           </tr>
           <tr>
-            <td><NavDropdown.Item>Tables</NavDropdown.Item></td>
+            <td><NavDropdown.Item className='dropdown'>Tables</NavDropdown.Item></td>
           </tr>
         </table>
       </NavDropdown>

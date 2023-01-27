@@ -15,6 +15,9 @@
 .text-container {
     width: 60%;
 }
+.contact-text1 {
+    color: black;
+}
 
 button {
     display: flex;
@@ -41,7 +44,7 @@ button:active {
 }
 
 
-p, h3 {
+p, h3, h4 {
     margin: 0;
     padding-left: 10%;
 }
@@ -71,7 +74,7 @@ p, h3 {
 }
 
 
-.grid-container {
+.grid-container1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
@@ -86,13 +89,18 @@ p, h3 {
     padding-right: 5%;
 }
 
-.rentalbutton {
-    align-items: center;
-}
+
 
 img.tentpic {
     width: 200px;
     height: 200px;
+}
+
+.contact-text {
+    color: black; /* or any other color value */
+}
+.contact-text:hover {
+    color: #dd4343;
 }
 
 
