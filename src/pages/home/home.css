@@ -1,0 +1,129 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    padding-top: 5%;
+    height:fit-content;
+    width: fit-content;
+    margin-right: 10px;
+    padding-bottom: 5%;
+}
+
+.text-container {
+    width: 60%;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    }
+      
+button:hover {
+    border: 1px solid rgb(171, 55, 55);
+}
+      
+button:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+    -4px -4px 12px #dd4343;
+}
+
+
+p, h3 {
+    margin: 0;
+    padding-left: 10%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.product-card, h3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 1%;
+}
+
+.text-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding-right: 5%;
+}
+
+.rentalbutton {
+    align-items: center;
+}
+
+img.tentpic {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* __________________________________________________________________________ */
+    
+@media only screen and (max-width: 767px) {
+    .container {
+        flex-direction: column;
+    }
+    .image-container {
+        margin: 0 auto;
+        padding-top: 10%;
+    }
+    .text-container {
+        width: 100%;
+    }
+    p, h2 {
+        padding-left: 5%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .product-card {
+        flex-direction: row;
+    }
+    .product-card img {
+        width: 50%;
+    }
+    .product-card p {
+        width: 50%;
+        text-align: left;
+        margin-top: 0;
+    }
+}

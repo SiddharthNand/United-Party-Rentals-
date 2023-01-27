@@ -1,4 +1,8 @@
 .navbar{
-    background: rgb(0,26,255);
-    background: linear-gradient(90deg, rgba(0,26,255,0.5354516806722689) 18%, rgba(221,28,28,0.9051995798319328) 50%, rgba(255,255,255,1) 100%);
+    background-color: rgba(223, 218, 218, 0.541);
+    padding-left: 1%;
+  }
+
+  .logo {
+    height: 50px;
   }

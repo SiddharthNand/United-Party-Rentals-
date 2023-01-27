@@ -6,7 +6,7 @@ export default function NavBar () {
     return (
         <>
         <Navbar bg="" expand="lg">
-  <Navbar.Brand href="#">United Party Rentals</Navbar.Brand>
+  <Navbar.Brand href="#"><img src="https://i.imgur.com/oIgfTxi.png" alt='logo' className='logo'></img></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
@@ -46,8 +46,8 @@ export default function NavBar () {
         </table>
       </NavDropdown>
       <NavDropdown title="Company Info" id="basic-nav-dropdown">
-        <NavDropdown.Item><a href="https://goo.gl/maps/t9MAizKhZt6iyDXS9">Address: 7232 Stockton Blvd. Sacramento, CA 95823</a></NavDropdown.Item>
-        <NavDropdown.Item>Phone Number: (916)424-8300</NavDropdown.Item>
+        <NavDropdown.Item>Address: <a href="https://goo.gl/maps/t9MAizKhZt6iyDXS9">7232 Stockton Blvd. Sacramento, CA 95823</a></NavDropdown.Item>
+        <NavDropdown.Item>Phone Number: <a href="tel:+19164248300">(916)424-8300</a></NavDropdown.Item>
       </NavDropdown>
     </Nav>
   </Navbar.Collapse>
