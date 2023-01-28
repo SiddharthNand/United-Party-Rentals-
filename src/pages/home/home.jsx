@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Home() {
     return (
         <>
+        <div className="homeinfo">
             <div className="container">
                 <div className="image-container">
                     <img src="https://i.imgur.com/z1QjUN8.png" classname="homepic" alt="home" />
@@ -13,11 +14,12 @@ export default function Home() {
                     <br></br>
                     <p>The event planners at United Party Rentals are here to help you. When you are ready, give our event planner's a call and we will help you through the process of selecting the equipment you will need for your party or event.</p>
                     <br></br>
-                    <button><a href="tel:+19164248300" className="contacthome contact-text1">Contact Us</a></button> 
+                    <a href="tel:+19164248300" className="contacthome contact-text1"><button>Contact Us</button></a> 
                     <br></br>
                     <h4>Visit our showroom!</h4><p><a href="https://goo.gl/maps/t9MAizKhZt6iyDXS9">7232 Stockton Blvd. Sacramento, CA 95823</a><br></br>
                     Winter Hours: Monday to Friday 9am-4pm <br></br> Saturday 9am-2pm <br></br>Sunday - CLOSED</p>
                 </div>
+            </div>
             </div>
             <br></br>
             <div className="grid-container1">
@@ -56,15 +58,15 @@ export default function Home() {
                     <br></br>
                     <p>Tents can be a valuable addition to any party, regardless of the weather conditions. Our tents are designed to withstand rain, and are also fire retardant certified. We offer a range of tents that can accommodate parties of different sizes, from small gatherings of 10 people to large events with 200 guests.</p>
                     <br></br>
-                    <button className="rental button contact-text">
-                    <Link to="/canopy" className="contacthome contact-text">View Tents</Link>
-                    </button>
+                    <Link to="/canopy" className="contacthome contact-text"><button className="rental button contact-text">
+                    View Tents
+                    </button></Link>
                 </div>
                 <div className="image-container">
                     <img classname="tentpic" src="https://i.imgur.com/tIOrrww.jpg" alt="home" style={{ width: '600px', height: '400px' }} />
                 </div>
             </div>
-
+            
         </>
     )
 }

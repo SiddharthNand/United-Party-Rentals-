@@ -3,6 +3,7 @@ import "./canopy.css"
 export default function Canopy () {
     return (
        <>
+       <h1 className="canopy">Canopy</h1>
     <div className="grid-container">
         <div className="product-card-container">
             <img src="https://i.imgur.com/HxobU1J.jpg"alt="canopy" className="canopy" />

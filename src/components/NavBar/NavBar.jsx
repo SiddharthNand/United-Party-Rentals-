@@ -17,12 +17,12 @@ export default function NavBar () {
             <td><NavDropdown.Item href="/canopy" className='dropdown'>Canopy</NavDropdown.Item></td>
           </tr>
           <tr>
-            <td><NavDropdown.Item className='dropdown'>Chairs</NavDropdown.Item ></td>
-            <td><NavDropdown.Item className='dropdown'>China</NavDropdown.Item></td>
+            <td><NavDropdown.Item href="/chairs" className='dropdown'>Chairs</NavDropdown.Item ></td>
+            <td><NavDropdown.Item href="/china" className='dropdown'>China</NavDropdown.Item></td>
           </tr>
           <tr>
-            <td><NavDropdown.Item className='dropdown'>Concession</NavDropdown.Item></td>
-            <td><NavDropdown.Item className='dropdown'>Cookware</NavDropdown.Item></td>
+            <td><NavDropdown.Item href="/Concession" className='dropdown'>Concession</NavDropdown.Item></td>
+            <td><NavDropdown.Item href="/Cookware" className='dropdown'>Cookware</NavDropdown.Item></td>
           </tr>
           <tr>
             <td><NavDropdown.Item className='dropdown'>Decoration</NavDropdown.Item></td>
