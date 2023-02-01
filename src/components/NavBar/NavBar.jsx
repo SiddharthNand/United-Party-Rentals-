@@ -6,7 +6,7 @@ export default function NavBar () {
     return (
         <>
         <Navbar bg="" expand="lg">
-  <Navbar.Brand href="/United-Party-Rentals-/"><img src="https://i.imgur.com/oIgfTxi.png" alt='logo' className='logo'></img></Navbar.Brand>
+  <Navbar.Brand href="/"><img src="https://i.imgur.com/oIgfTxi.png" alt='logo' className='logo'></img></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
