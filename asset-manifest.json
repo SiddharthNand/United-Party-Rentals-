@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/United-Party-Rentals-/static/css/main.0f97bbec.css",
-    "main.js": "/United-Party-Rentals-/static/js/main.46247787.js",
+    "main.js": "/United-Party-Rentals-/static/js/main.0adfc2af.js",
     "index.html": "/United-Party-Rentals-/index.html",
     "main.0f97bbec.css.map": "/United-Party-Rentals-/static/css/main.0f97bbec.css.map",
-    "main.46247787.js.map": "/United-Party-Rentals-/static/js/main.46247787.js.map"
+    "main.0adfc2af.js.map": "/United-Party-Rentals-/static/js/main.0adfc2af.js.map"
   },
   "entrypoints": [
     "static/css/main.0f97bbec.css",
-    "static/js/main.46247787.js"
+    "static/js/main.0adfc2af.js"
   ]
 }
