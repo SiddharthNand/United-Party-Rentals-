@@ -2,7 +2,7 @@ import "./China.css"
 import React from 'react';
 import { Table } from 'react-bootstrap';
 
-const ChinaTable = () => {
+const China = () => {
   return (
     <>
      <h1 className="china">China</h1>
@@ -146,4 +146,4 @@ const ChinaTable = () => {
   );
 };
 
-export default ChinaTable;
+export default China;

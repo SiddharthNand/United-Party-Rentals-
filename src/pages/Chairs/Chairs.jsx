@@ -2,7 +2,7 @@ import "./Chairs.css"
 import React from 'react';
 import { Table } from 'react-bootstrap';
 
-const RentalsTable = () => {
+const Chairs = () => {
     return (
         <>
         <h1 className="chair">Chair</h1>
@@ -82,4 +82,4 @@ const RentalsTable = () => {
     );
 }
 
-export default RentalsTable;
+export default Chairs;
