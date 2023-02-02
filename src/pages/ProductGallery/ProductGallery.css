@@ -1,7 +1,12 @@
-.china {
+.photo-gallery {
     text-align: center;
     text-decoration: underline;
     padding-bottom: 1%;
     padding-top: 2%;
     font-family: cursive;
+}
+
+.photo-gallery img {
+    width: 250px;
+    height: 250px;
 }
