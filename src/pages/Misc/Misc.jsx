@@ -6,7 +6,7 @@ const Misc = () => {
     return (
         <>
         <h1 className="Misc">Miscellaneous</h1>
-        <Table striped bordered hover>
+        <Table striped bordered>
             <thead>
                 <tr>
                     {/* <th>Image</th> */}

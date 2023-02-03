@@ -6,7 +6,7 @@ const Serving = () => {
     return (
         <>
         <h1 className="Serving">Serving</h1>
-        <Table striped bordered hover>
+        <Table striped bordered>
             <thead>
                 <tr>
                     {/* <th>Image</th> */}

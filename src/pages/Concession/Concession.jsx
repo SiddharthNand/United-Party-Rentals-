@@ -6,7 +6,7 @@ const Concession = () => {
     return (
         <>
         <h1 className="Concession">Concession</h1>
-        <Table striped bordered hover>
+        <Table striped bordered>
             <thead>
                 <tr>
                     {/* <th>Image</th> */}

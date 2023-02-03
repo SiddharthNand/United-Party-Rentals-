@@ -6,7 +6,7 @@ const China = () => {
   return (
     <>
      <h1 className="china">China</h1>
-    <Table striped bordered hover>
+     <Table striped bordered>
       <thead>
         <tr>
           <th>Category</th>

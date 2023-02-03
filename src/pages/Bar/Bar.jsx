@@ -5,7 +5,7 @@ export default function Bar() {
   return (
     <>
     <h1 className="BarBeverage">Bar & Beverage</h1>
-    <Table>
+    <Table striped bordered>
       <thead>
         <tr>
           <th>Category</th>

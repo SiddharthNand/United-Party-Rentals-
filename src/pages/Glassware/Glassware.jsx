@@ -6,7 +6,7 @@ const Glassware = () => {
     return (
         <>
         <h1 className="Glassware">Glassware</h1>
-        <Table striped bordered hover>
+        <Table striped bordered>
             <thead>
                 <tr>
                     {/* <th>Image</th> */}

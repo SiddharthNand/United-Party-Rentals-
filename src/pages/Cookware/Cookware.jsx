@@ -6,7 +6,7 @@ const Cookware = () => {
     return (
         <>
         <h1 className="Cookware">Cookware</h1>
-        <Table striped bordered hover>
+        <Table striped bordered>
             <thead>
                 <tr>
                     {/* <th>Image</th> */}

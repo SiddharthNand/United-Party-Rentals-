@@ -2,6 +2,7 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
+import ImageCarousel from './components/ImageCarousel/ImageCarousel';
 import Home from './pages/home/home';
 import Bar from './pages/Bar/Bar';
 import Canopy from './pages/Canopy/canopy';
@@ -47,6 +48,7 @@ function App() {
       <Route path="/Serving" element={<Serving />} />
       <Route path="/Staging" element={<Staging />} />
       <Route path="/Tables" element={<Tables />} />
+      <Route path="/ImageCarousel" element={<ImageCarousel />} />
 
     </Routes>
     <Footer /> 

@@ -1,146 +1,112 @@
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.image-container {
-    padding-top: 5%;
-    height:fit-content;
-    width: fit-content;
-    margin-right: 10px;
-    padding-bottom: 5%;
-}
-
-.text-container {
-    width: 60%;
-}
-.contact-text1 {
-    color: black;
-}
-
-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 55px;
-    color: #090909;
-    padding: 0.7em 1.7em;
-    font-size: 18px;
-    border-radius: 0.5em;
-    background: #e8e8e8;
-    border: 1px solid #e8e8e8;
-    transition: all .3s;
-    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
-    }
-      
-button:hover {
-    border: 1px solid rgb(171, 55, 55);
-}
-      
-button:active {
-    box-shadow: 4px 4px 12px #c5c5c5,
-    -4px -4px 12px #dd4343;
-}
-
-
-p, h3, h4 {
-    margin: 0;
-    padding-left: 10%;
-}
-
-.text-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.product-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.article {
+    height: 100%;
     position: relative;
+    overflow: hidden;
 }
 
-.product-card img {
+.image {
+    object-fit: cover;
     width: 100%;
+    height: 500px;
 }
 
-.product-card, h3 {
-    width: 100%;
+.header {
+    font-size: 80px;
+    color: white;
     text-align: center;
-    margin-top: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    margin: auto;
+    background-color: #ffffff77;
 }
 
-
-.grid-container1 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    margin: 1%;
-}
-
-.text-container1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
-    padding-right: 5%;
-}
-
-
-
-img.tentpic {
-    width: 200px;
-    height: 200px;
-}
-
-.contact-text {
-    color: black; /* or any other color value */
-}
-.contact-text:hover {
-    color: #dd4343;
-}
-
-.homeinfo {
-    display: flex;
-    align-items: center;
+.intro {
+    font-size: 24px;
+    color: black;
+    text-align: center;
     justify-content: center;
-    width: 100%;
+    width: 800px;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
 
-/* __________________________________________________________________________ */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    padding: 12px 24px;
+    border: 1px solid #4f4f4f;
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    font-size: 19px;
+    color: black;
+    z-index: 1;
+    background-color: #C0C0C0;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    min-width: 120px;
+    background: rgb(157, 30, 30);
+    color: #EEEEEE;
+    border: none;
+    border-radius: 0 !important;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+   }
+
+.contact:hover {
+    box-shadow: #EEEEEE 0px 0px 0px 11px, #161616 0px 0px 0px 10px;
+    background: #000;
+    color: #EEEEEE;
+  }
+
+.logohome {
+    width: 800px;
+}
+
+.businfo { 
+
+  margin: 0 auto;
+  
+  
+  
+}
+
+.title {
+    text-align: center;
+    padding-top: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
-@media only screen and (max-width: 767px) {
-    .container {
-        flex-direction: column;
-    }
-    .image-container {
-        margin: 0 auto;
-        padding-top: 10%;
-    }
-    .text-container {
-        width: 100%;
-    }
-    p, h2 {
-        padding-left: 5%;
-    }
 }
 
-@media only screen and (min-width: 768px) {
-    .product-card {
-        flex-direction: row;
-    }
-    .product-card img {
-        width: 50%;
-    }
-    .product-card p {
-        width: 50%;
-        text-align: left;
-        margin-top: 0;
-    }
+.title1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.addy {
+    font-size: 20px;
+    padding: 0px 32px 0px;
+}
+
+.yelp {
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.review1 {
+    border: 1px solid red;
 }

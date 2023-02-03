@@ -6,7 +6,7 @@ const Chairs = () => {
     return (
         <>
         <h1 className="chair">Chair</h1>
-        <Table className="chairs">
+        <Table striped bordered className="chairs">
             <thead>
                 <tr>
                     <th>Image</th>

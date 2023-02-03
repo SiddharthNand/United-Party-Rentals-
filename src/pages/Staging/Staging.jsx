@@ -6,7 +6,7 @@ const Staging = () => {
     return (
         <>
         <h1 className="Staging">Staging & Flooring</h1>
-        <Table striped bordered hover>
+        <Table striped bordered>
             <thead>
                 <tr>
                     {/* <th>Image</th> */}
