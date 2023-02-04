@@ -43,12 +43,11 @@ export default function NavBar () {
           </tr>
         </table>
       </NavDropdown>
-      <Nav.Link href="/productgallery">Product Gallery</Nav.Link>
+      <Nav.Link href="/gallery">Gallery</Nav.Link>
       <NavDropdown title="Company Info" id="basic-nav-dropdown">
         <NavDropdown.Item>Address: <a href="https://goo.gl/maps/t9MAizKhZt6iyDXS9">7232 Stockton Blvd. Sacramento, CA 95823</a></NavDropdown.Item>
         <NavDropdown.Item>Phone Number: <a href="tel:+19164248300">(916)424-8300</a></NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link href="/gallery">Gallery</Nav.Link>
       <NavDropdown title="Preferred Partners" id="basic-nav-dropdown">
       <NavDropdown.Item><a href="https://www.menefeespace.com/" target="_blank" rel="noreferrer">Menefee Canvas Space</a></NavDropdown.Item>
       </NavDropdown>

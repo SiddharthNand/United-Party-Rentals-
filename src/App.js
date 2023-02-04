@@ -2,7 +2,6 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
-import ImageCarousel from './components/ImageCarousel/ImageCarousel';
 import Home from './pages/home/home';
 import Bar from './pages/Bar/Bar';
 import Canopy from './pages/Canopy/canopy';
@@ -27,34 +26,34 @@ import Tables from './pages/Tables/Tables';
 
 function App() {
   return (
-    <main className='App'> 
-    <>
-    <NavBar />
-    <Routes> 
-      <Route path="/" element={<Home />} />
-      <Route path="/Bar" element={<Bar />} />
-      <Route path="/Canopy" element={<Canopy />} />
-      <Route path="/Chairs" element={<Chairs />} />
-      <Route path="/China" element={<China />} />
-      <Route path="/Concession" element={<Concession />} />
-      <Route path="/Cookware" element={<Cookware />} />
-      <Route path="/Gallery" element={<Gallery />} />
-      <Route path="/ProductGallery" element={<ProductGallery />} />
-      <Route path="/Decoration" element={<Decoration />} />
-      <Route path="/Flatware" element={<Flatware />} />
-      <Route path="/Glassware" element={<Glassware />} />
-      <Route path="/Linen" element={<Linen />} />
-      <Route path="/Misc" element={<Misc />} />
-      <Route path="/Serving" element={<Serving />} />
-      <Route path="/Staging" element={<Staging />} />
-      <Route path="/Tables" element={<Tables />} />
-      <Route path="/ImageCarousel" element={<ImageCarousel />} />
+    <main className='App'>
+      <>
+        <NavBar />
 
-    </Routes>
-    <Footer /> 
-    </>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Bar" element={<Bar />} />
+          <Route path="/Canopy" element={<Canopy />} />
+          <Route path="/Chairs" element={<Chairs />} />
+          <Route path="/China" element={<China />} />
+          <Route path="/Concession" element={<Concession />} />
+          <Route path="/Cookware" element={<Cookware />} />
+          <Route path="/Gallery" element={<Gallery />} />
+          <Route path="/ProductGallery" element={<ProductGallery />} />
+          <Route path="/Decoration" element={<Decoration />} />
+          <Route path="/Flatware" element={<Flatware />} />
+          <Route path="/Glassware" element={<Glassware />} />
+          <Route path="/Linen" element={<Linen />} />
+          <Route path="/Misc" element={<Misc />} />
+          <Route path="/Serving" element={<Serving />} />
+          <Route path="/Staging" element={<Staging />} />
+          <Route path="/Tables" element={<Tables />} />
+
+        </Routes>
+        <Footer />
+      </>
     </main>
-  
+
   );
 }
 export default App;
