@@ -5,8 +5,6 @@ const ImageCarousel = () => {
 const [currentImageIndex, setCurrentImageIndex] = useState(0);
 const images = [
 'https://i.imgur.com/pIGwpin.png',
-'https://i.imgur.com/d0Q2KB7.png',
-'https://i.imgur.com/FEQk0lD.png',
 'https://i.imgur.com/Jdhywtp.png',
 'https://i.imgur.com/FxIwL6u.png',
 ];

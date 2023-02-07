@@ -121,14 +121,8 @@ const Serving = () => {
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Serving</td>
-                    <td></td>
-                    <td>$5.00</td>
-                </tr>
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Serving</td>
                     <td>Pitcher, Glass</td>
-                    <td>$50.00</td>
+                    <td>$5.00</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}

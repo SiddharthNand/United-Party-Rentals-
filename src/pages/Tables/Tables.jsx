@@ -1,74 +1,173 @@
 import "./Tables.css"
+import React from 'react';
 
-export default function Tables () {
+
+const Tables = () => {
     return (
-       <>
-       <h1 className="Tables">Tables</h1>
-    <div className="grid-container">
-        <div className="product-card-container">
-            <img src="https://i.imgur.com/HxobU1J.jpg"alt="Tables" className="Tables" />
-            <div className="product-text-container">
-                <h5>10 x 10 Standard</h5>
-            </div>
+        <>
+        <h1 className="canopy">Tables</h1>
+        <div className="grid-container">
+         <div className="product-card-container">
+             <img src="https://i.imgur.com/PUqOl5p.jpg"alt="canopy" className="canopy" />
+             <div className="product-text-container">
+                 <h5>Table 2' x 4'</h5>
+                 <h5>$10.00 Each</h5>
+             </div>
+         </div>
+
+         <div className="product-card-container">
+             <img src="https://i.imgur.com/BYIb8cR.jpg"alt="canopy"  className="canopy"/>
+             <div className="product-text-container">
+                 <h5>Table 24" Round BAR HEIGHT</h5>
+                 <h5>$15.00 Each</h5>
+             </div>
+         </div>
+
+         <div className="product-card-container">
+             <img src="https://i.imgur.com/JsXTgFy.jpg"alt="canopy"  className="canopy"/>
+             <div className="product-text-container">
+                 <h5>Table 24" Round Pedestal</h5>
+                 <h5>$15.00 Each</h5>
+             </div>
+         </div>
+
+         <div className="product-card-container">
+             <img src="https://i.imgur.com/jOqdsK8.jpg"alt="canopy"  className="canopy"/>
+             <div className="product-text-container">
+                 <h5>Table 3' x 3' Card Table</h5>
+                 <h5>$10.00 Each</h5>
+             </div>
+         </div>
+
+         <div className="product-card-container">
+             <img src="https://i.imgur.com/gQbZ7GK.jpg"alt="canopy"  className="canopy"/>
+             <div className="product-text-container">
+                 <h5>Table 30" Round BAR HEIGHT</h5>
+                 <h5>$16.00 Each</h5>
+             </div>
+         </div>
+
+         <div className="product-card-container">
+             <img src="https://i.imgur.com/8mzbFk7.jpg"alt="canopy"  className="canopy"/>
+             <div className="product-text-container">
+                 <h5>Table 30" Round BAR HEIGHT one piece</h5>
+                 <h5>$16.00 Each</h5>
+             </div>
+         </div>
+
+         <div className="product-card-container">
+             <img src="https://i.imgur.com/8mzbFk7.jpg"alt="canopy"  className="canopy"/>
+             <div className="product-text-container">
+                 <h5>Table 30" Round Pedestal one piece</h5>
+                 <h5>$16.00 Each</h5>
+             </div>
+         </div>
+
+         <div className="product-card-container">
+             <img src="https://i.imgur.com/CiRIFSu.jpg"alt="canopy"  className="canopy"/>
+             <div className="product-text-container">
+                 <h5>Table 36" Round CHILDREN</h5>
+                 <h5>$12.00 Each</h5>
+             </div>
+         </div>
+
+         <div className="product-card-container">
+             <img src="https://i.imgur.com/pq01j1N.jpg"alt="canopy"  className="canopy"/>
+             <div className="product-text-container">
+                 <h5>Table 36" Round seats 4</h5>
+                 <h5>$12.00 Each</h5>
+             </div>
         </div>
-        <div className="product-card-container">
-            <img src="https://i.imgur.com/6cW6vcg.jpg"alt="Tables"  className="Tables"/>
-            <div className="product-text-container">
-                <h5>10 x 20 Standard</h5>
-            </div>
+
+             <div className="product-card-container">
+             <img src="https://i.imgur.com/BYIb8cR.jpg"alt="canopy"  className="canopy"/>
+             <div className="product-text-container">
+                 <h5>Table 48" Round seats 6</h5>
+                 <h5>$14.00 Each</h5>
+             </div>
+         </div>
+
+         <div className="product-card-container">
+             <img src="https://i.imgur.com/JsXTgFy.jpg"alt="canopy"  className="canopy"/>
+             <div className="product-text-container">
+                 <h5>Table 5' Banquet</h5>
+                 <h5>$10.00 Each</h5>
+             </div>
+         </div>
+
+         <div className="product-card-container">
+             <img src="https://i.imgur.com/jOqdsK8.jpg"alt="canopy"  className="canopy"/>
+             <div className="product-text-container">
+                 <h5>Table 6' Banquet seats 6-8</h5>
+                 <h5>$11.00 Each</h5>
+             </div>
+         </div>
+
+         <div className="product-card-container">
+             <img src="https://i.imgur.com/gQbZ7GK.jpg"alt="canopy"  className="canopy"/>
+             <div className="product-text-container">
+                 <h5>Table 6' Serpentine</h5>
+                 <h5>$11.00 Each</h5>
+             </div>
+         </div>
+
+         <div className="product-card-container">
+             <img src="https://i.imgur.com/8mzbFk7.jpg"alt="canopy"  className="canopy"/>
+             <div className="product-text-container">
+                 <h5>Table 6' x 18" Conference</h5>
+                 <h5>$11.00 Each</h5>
+             </div>
+         </div>
+
+         <div className="product-card-container">
+             <img src="https://i.imgur.com/8mzbFk7.jpg"alt="canopy"  className="canopy"/>
+             <div className="product-text-container">
+                 <h5>Table 6'x30"x24" CHILDREN</h5>
+                 <h5>$11.00 Each</h5>
+             </div>
+         </div>
+
+         <div className="product-card-container">
+             <img src="https://i.imgur.com/CiRIFSu.jpg"alt="canopy"  className="canopy"/>
+             <div className="product-text-container">
+                 <h5>Table 60" Round seats 8</h5>
+                 <h5>$15.00 Each</h5>
+             </div>
+         </div>
+
+         <div className="product-card-container">
+             <img src="https://i.imgur.com/pq01j1N.jpg"alt="canopy"  className="canopy"/>
+             <div className="product-text-container">
+                 <h5>Table 72" Round seats 10</h5>
+                 <h5>$16.00 Each</h5>
+             </div>
         </div>
-        <div className="product-card-container">
-            <img src="https://i.imgur.com/w4xKJxh.jpg"alt="Tables" className="Tables" />
-            <div className="product-text-container">
-                <h5>15 x 15 Standard</h5>
-            </div>
+
+             <div className="product-card-container">
+             <img src="https://i.imgur.com/pq01j1N.jpg"alt="canopy"  className="canopy"/>
+             <div className="product-text-container">
+                 <h5>Table 8' Banquet seat 8-10</h5>
+                 <h5>$12.00 Each</h5>
+             </div>
         </div>
-        <div className="product-card-container">
-            <img src="https://i.imgur.com/9PrNRnA.jpg"alt="Tables" className="Tables"/>
-            <div className="product-text-container">
-                <h5>15 x 20 Standard</h5>
-            </div>
+
+
+             <div className="product-card-container">
+             <img src="https://i.imgur.com/pq01j1N.jpg"alt="canopy"  className="canopy"/>
+             <div className="product-text-container">
+                 <h5>Table 8'x30"x24" CHILDREN</h5>
+                 <h5>$12.00 Each</h5>
+             </div>
         </div>
-        <div className="product-card-container">
-            <img src="https://i.imgur.com/VJ0sQQT.jpg"alt="Tables" className="Tables"/>
-            <div className="product-text-container">
-                <h5>20 x 20 Standard</h5>
-            </div>
-        </div> <div className="product-card-container">
-            <img src="https://i.imgur.com/8XQRC2H.jpg"alt="Tables" className="Tables"/>
-            <div className="product-text-container">
-                <h5>20 x 30 Standard</h5>
-            </div>
-        </div> <div className="product-card-container">
-            <img src="https://i.imgur.com/niM8Kjo.jpg"alt="Tables" className="Tables"/>
-            <div className="product-text-container">
-                <h5>20 x 40 Standard</h5>
-            </div>
-        </div> <div className="product-card-container">
-            <img src="https://i.imgur.com/hHlshr7.jpg"alt="Tables" className="Tables"/>
-            <div className="product-text-container">
-                <h5>20 x 60 Standard</h5>
-            </div>
-        </div> <div className="product-card-container">
-            <img src="https://i.imgur.com/kEgl6QC.jpg"alt="Tables" className="Tables"/>
-            <div className="product-text-container">
-                <h5>30 x 30 Standard</h5>
-            </div>
-            </div> <div className="product-card-container">
-            <img src="https://i.imgur.com/odM7HPo.jpg"alt="Tables" className="Tables"/>
-            <div className="product-text-container">
-                <h5>40 x 40 Standard</h5>
-            </div>
-            </div> <div className="product-card-container">
-            <img src="https://i.imgur.com/24rJa5n.jpg"alt="Tables" className="Tables"/>
-            <div className="product-text-container">
-                <h5>40 x 60 Standard</h5>
-            </div>
-            
-            
-        </div>
-        </div>
-       </>
-    ); 
-};
-   
+ 
+             
+             
+         </div>
+         
+        </>
+    );
+}
+    
+
+export default Tables;
+

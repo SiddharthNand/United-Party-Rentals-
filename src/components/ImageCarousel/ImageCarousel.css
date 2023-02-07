@@ -40,3 +40,30 @@
     stroke: #000000;
     stroke-width: 1;
   }
+
+
+  @media only screen and (max-width: 767px) {
+    .ImageCarousel {
+      margin-bottom: 40px;
+      margin-top: 20px;
+  
+    }
+    
+    .Testimonials {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    
+    .Previous {
+      margin-left: 4px;
+      margin-right: 4px;
+      width: 40px;
+      height: 40px;
+    }
+    
+    .svg-icon {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  
