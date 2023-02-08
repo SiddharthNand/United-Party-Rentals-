@@ -9,11 +9,45 @@ export default function Home() {
         <>
             <article className="article">
                 <picture className="picture">
-                    <img src="https://i.imgur.com/nkIQiqk.png" alt="background" className="image" />
+                    <img src="https://i.imgur.com/MGFJlUL.png" alt="background" className="image" />
                 </picture>
-                <h1 className="header"><img src="https://i.imgur.com/oIgfTxi.png" alt='logo' className='logohome'></img><br></br>
-                    {/* <p className="intro">The event planners at United Party Rentals are here to help you. When you are ready, give our event planner's a call and we will help you through the process of selecting the equipment you will need for your party or event.</p><br></br> */}
+                <h1 className="header">THE PARTY STARTS WITH US!
+                {/* <div class="middle">
+                    <a class="btn" href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="btn" href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="btn" href="#">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a class="btn" href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="btn" href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a class="btn" href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="btn" href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="btn" href="#">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a class="btn" href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="btn" href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div> */}
+    
                 </h1>
+                
+
             </article>
 
 
