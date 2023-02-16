@@ -9,43 +9,11 @@ export default function Home() {
         <>
             <article className="article">
                 <picture className="picture">
-                    <img src="https://i.imgur.com/MGFJlUL.png" alt="background" className="image" />
+                    <img src="https://i.imgur.com/VAeIdow.png" alt="background" className="image" />
                 </picture>
-                <h1 className="header">THE PARTY STARTS WITH US!
-                {/* <div class="middle">
-                    <a class="btn" href="#">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a class="btn" href="#">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a class="btn" href="#">
-                        <i class="fab fa-google"></i>
-                    </a>
-                    <a class="btn" href="#">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a class="btn" href="#">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                    <a class="btn" href="#">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a class="btn" href="#">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a class="btn" href="#">
-                        <i class="fab fa-google"></i>
-                    </a>
-                    <a class="btn" href="#">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a class="btn" href="#">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                </div> */}
-    
-                </h1>
+                
+                <h1 className="header">THE PARTY STARTS WITH US!</h1>
+                <img src="https://i.imgur.com/oIgfTxi.png" alt='logo' className="logo"></img>
                 
 
             </article>

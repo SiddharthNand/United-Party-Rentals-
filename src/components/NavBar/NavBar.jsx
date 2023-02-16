@@ -6,10 +6,10 @@ export default function NavBar () {
     return (
         <>
         <Navbar bg="" expand="lg" className="navbar">
-  <Navbar.Brand href="/"><img src="https://i.imgur.com/oIgfTxi.png" alt='logo' className='logo'></img></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
-    <Nav className="mr-auto">
+    <Nav className="m-auto">
+    <Nav.Link href="/">Home</Nav.Link>
     <NavDropdown title="Rentals" id="basic-nav-dropdown">
         <table>
           <tr>
@@ -44,12 +44,13 @@ export default function NavBar () {
         </table>
       </NavDropdown>
       <Nav.Link href="/gallery">Gallery</Nav.Link>
+      {/* <Navbar.Brand href="/"><img src="https://i.imgur.com/oIgfTxi.png" alt='logo' className='logo'></img></Navbar.Brand> */}
       <NavDropdown title="Company Info" id="basic-nav-dropdown">
-        <NavDropdown.Item>Address: <a href="https://goo.gl/maps/t9MAizKhZt6iyDXS9">7232 Stockton Blvd. Sacramento, CA 95823</a></NavDropdown.Item>
-        <NavDropdown.Item>Phone Number: <a href="tel:+19164248300">(916)424-8300</a></NavDropdown.Item>
+        <NavDropdown.Item>Address: <a classname="info" href="https://goo.gl/maps/t9MAizKhZt6iyDXS9">7232 Stockton Blvd. Sacramento, CA 95823</a></NavDropdown.Item>
+        <NavDropdown.Item>Phone Number: <a  href="tel:+19164248300" classname="info">(916)424-8300</a></NavDropdown.Item>
       </NavDropdown>
       <NavDropdown title="Preferred Vendors" id="basic-nav-dropdown">
-      <NavDropdown.Item><a href="https://www.menefeespace.com/" target="_blank" rel="noreferrer">Menefee Canvas Space</a></NavDropdown.Item>
+      <NavDropdown.Item><a classname="info" href="https://www.menefeespace.com/" target="_blank" rel="noreferrer">Menefee Canvas Space</a></NavDropdown.Item>
       </NavDropdown>
     </Nav>
   </Navbar.Collapse>

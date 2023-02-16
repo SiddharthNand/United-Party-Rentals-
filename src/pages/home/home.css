@@ -8,6 +8,7 @@
     object-fit: cover;
     width: 100%;
     height: 700px;
+    filter: brightness(.75);
 }
 
 .header {
@@ -25,6 +26,19 @@
     height: fit-content;
     margin: auto;
     font-family: 'Patrick Hand', cursive;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  position: absolute;
+    top: 400px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  height: 100px;
+  filter: brightness(220%);
 }
 
 .intro {
@@ -111,69 +125,7 @@
     border: 1px solid red;
 }
 
-/* .middle {
-    position: absolute;
-    top: 190%;
-    transform: translateY(-50%);
-    width: 100%;
-    text-align: center;
-  }
-  
-  .btn {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    background: #f1f1f1;
-    margin: 10px;
-    border-radius: 30%;
-    box-shadow: 0 5px 15px -5px #00000070;
-    color: #3498db;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .btn i {
-    line-height: 50px;
-    font-size: 26px;
-    transition: 0.2s linear;
-  }
-  
-  .btn:hover i {
-    transform: scale(1.3);
-    color: #f1f1f1;
-  }
-  
-  .btn::before {
-    content: "";
-    position: absolute;
-    width: 120%;
-    height: 120%;
-    background: #3498db;
-    transform: rotate(45deg);
-    left: -110%;
-    top: 90%;
-  }
-  
-  .btn:hover::before {
-    animation: aaa 0.7s 1;
-    top: -10%;
-    left: -10%;
-  }
-  
-  @keyframes aaa {
-    0% {
-      left: -110%;
-      top: 90%;
-    }
-    50% {
-      left: 10%;
-      top: -30%;
-    }
-    100% {
-      top: -10%;
-      left: -10%;
-    }
-  } */
+
 
 @media only screen and (max-width: 767px) {
     .header {
