@@ -4,9 +4,9 @@ import './ImageCarousel.css';
 const ImageCarousel = () => {
 const [currentImageIndex, setCurrentImageIndex] = useState(0);
 const images = [
-'https://i.imgur.com/pIGwpin.png',
-'https://i.imgur.com/Jdhywtp.png',
-'https://i.imgur.com/FxIwL6u.png',
+'https://i.imgur.com/6f7LjE6.png',
+'https://i.imgur.com/xbqFDTc.png',
+'https://i.imgur.com/XWxoGTB.png',
 ];
 
 const previousImage = () => {

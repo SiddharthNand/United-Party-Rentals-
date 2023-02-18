@@ -13,7 +13,6 @@ export default function Home() {
                 </picture>
                 
                 <h1 className="header">THE PARTY STARTS WITH US!</h1>
-                <img src="https://i.imgur.com/oIgfTxi.png" alt='logo' className="logo"></img>
                 
 
             </article>

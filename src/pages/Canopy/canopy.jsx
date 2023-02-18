@@ -50,7 +50,7 @@ export default function Canopy () {
                 <h5>20 x 60 Standard</h5>
             </div>
         </div> <div className="product-card-container">
-            <img src="https://i.imgur.com/kEgl6QC.jpg"alt="canopy" className="canopy"/>
+            <img src="https://i.imgur.com/WKPZmc0.png"alt="canopy" className="canopy"/>
             <div className="product-text-container">
                 <h5>30 x 30 Standard</h5>
             </div>
