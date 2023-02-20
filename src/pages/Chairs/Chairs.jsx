@@ -9,7 +9,7 @@ const Chairs = () => {
          <div className="product-card-container">
              <img src="https://i.imgur.com/8mzbFk7.jpg"alt="canopy"  className="canopy"/>
              <div className="product-text-container">
-                 <h5>White Folding CHILDREN</h5>
+                 <h5>White Folding</h5>
                  <h5>$1.25 Each</h5>
              </div>
          </div>

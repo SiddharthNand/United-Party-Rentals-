@@ -14,3 +14,35 @@
     width: 400px;
     height: 400px;
 }
+
+@media only screen and (max-width: 375px) {
+    .gallery img {
+        width: 100px;
+        height: auto;
+    }
+    .gallery {
+        flex-wrap: wrap;
+        margin: -5px; /* to remove the default margin of the images */
+    }
+    .gallery img + img {
+        margin-top: 10px; /* add spacing between images */
+    }
+}
+
+/* For larger devices */
+.photo-gallery {
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 1%;
+    padding-top: 2%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 300px;
+    height: 300px;
+}
