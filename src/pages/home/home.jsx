@@ -9,7 +9,7 @@ export default function Home() {
         <>
             <article className="article">
                 <picture className="picture">
-                    <img src="https://i.imgur.com/VAeIdow.png" alt="background" className="image" />
+                    <img src="https://i.imgur.com/W8esp2f.png" alt="background" className="image" />
                 </picture>
                 
                 <h1 className="header">THE PARTY STARTS WITH US!</h1>
