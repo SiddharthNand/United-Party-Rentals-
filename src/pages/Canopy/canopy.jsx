@@ -2,7 +2,7 @@ import "./canopy.css"
 
 export default function Canopy () {
     return (
-       <>
+       <div className="canopyPage">
        <h1 className="canopy">Canopy</h1>
     <div className="grid-container">
         <div className="product-card-container">
@@ -68,7 +68,7 @@ export default function Canopy () {
             
         </div>
         </div>
-       </>
+       </div>
     ); 
 };
    

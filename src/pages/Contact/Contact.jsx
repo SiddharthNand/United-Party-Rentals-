@@ -53,7 +53,7 @@ function Contact() {
           ></textarea>
         </div><br></br>
         <button type="submit" className="contact">
-          Submit
+          Send
         </button>
       </form>
     </div>

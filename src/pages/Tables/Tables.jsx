@@ -4,7 +4,7 @@ import React from 'react';
 
 const Tables = () => {
     return (
-        <>
+        <div className="tablePage">
         <h1 className="canopy">Tables</h1>
         <div className="grid-container">
          <div className="product-card-container">
@@ -164,7 +164,7 @@ const Tables = () => {
              
          </div>
          
-        </>
+        </div>
     );
 }
     

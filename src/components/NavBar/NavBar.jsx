@@ -52,7 +52,9 @@ export default function NavBar() {
             </NavDropdown> */}
             <Nav.Link href="/Contact">Contact Us</Nav.Link>
             <NavDropdown title="Preferred Vendors" id="basic-nav-dropdown">
-              <NavDropdown.Item><a href="https://www.menefeespace.com/">Menefee Canvas Space</a></NavDropdown.Item>
+              <NavDropdown.Item>
+                <a href="https://www.menefeespace.com/">Menefee Canvas Space</a>
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

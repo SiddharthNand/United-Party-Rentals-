@@ -3,7 +3,7 @@ import React from 'react';
 
 const Chairs = () => {
     return (
-        <>
+        <div className="chairPage">
         <h1 className="canopy">Chairs</h1>
      <div className="grid-container">
          <div className="product-card-container">
@@ -74,7 +74,7 @@ const Chairs = () => {
              
          </div>
          
-        </>
+        </div>
     );
 }
 
