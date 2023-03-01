@@ -22,7 +22,7 @@ export default function Home() {
 
 
             <div className="businfo">
-                <h1 className="title">Visit our showroom</h1>
+                <h1 className="title2">Visit our showroom</h1>
 
                 <p className="title addy"><a href="https://goo.gl/maps/t9MAizKhZt6iyDXS9">7232 Stockton Blvd. Sacramento, CA 95823</a></p>
                 <div className="title1 title">

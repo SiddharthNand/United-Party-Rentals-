@@ -86,12 +86,21 @@
   padding-top: 50px;
 }
 
-.title {
+.title2 {
     text-align: center;
     padding-top: 8px;
     font-family: 'Cinzel', serif;
+    text-decoration: underline;
     
 }
+
+.title {
+  text-align: center;
+  padding-top: 8px;
+  font-family: 'Cinzel', serif;
+  
+}
+
 
 .title1 {
     display: flex;
