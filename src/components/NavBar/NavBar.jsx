@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <>
 
-      <div href="/"><img src="https://i.imgur.com/59MnZ2J.png" alt='logo' className='logo'></img></div>
+      <div><a className='logo' href="/"><img src="https://i.imgur.com/59MnZ2J.png"  alt='logo' ></img></a></div>
       <Navbar bg="" expand="lg" className="navbar">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -50,11 +50,13 @@ export default function NavBar() {
               <NavDropdown.Item>Address: <a classname="info" href="https://goo.gl/maps/t9MAizKhZt6iyDXS9">7232 Stockton Blvd. Sacramento, CA 95823</a></NavDropdown.Item>
               <NavDropdown.Item>Phone Number: <a href="tel:+19164248300" classname="info">(916)424-8300</a></NavDropdown.Item>
             </NavDropdown> */}
-            <Nav.Link href="/Contact">Contact Us</Nav.Link>
+            {/* <Nav.Link href="/Contact">Contact Us</Nav.Link> */}
             <NavDropdown title="Preferred Vendors" id="basic-nav-dropdown">
-              <NavDropdown.Item>
-                <a href="https://www.menefeespace.com/">Menefee Canvas Space</a>
-              </NavDropdown.Item>
+              <table>
+                <tr>
+                  <td><NavDropdown.Item target="_blank" href="https://www.menefeespace.com" className='dropdown'>Menefee Canvas Space</NavDropdown.Item></td>
+                </tr>
+              </table>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

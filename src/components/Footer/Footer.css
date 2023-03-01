@@ -5,14 +5,14 @@ p {
 footer {
     background-color: rgb(229, 227, 227);
     color: rgb(0, 0, 0);
-    font-size: 12px;
+    font-size: 14px;
     position: absolute;
-    margin-top: 10px;
     width: 100%;
+    font-family: 'Cinzel', serif;
 }
 
 .wrapper {
-    display: inline-flex;
+    display: flex;
     list-style: none;
     height: 120px;
     width: 100%;
@@ -101,3 +101,26 @@ footer {
     color: black;
   }
 
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  ul.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  li.icon {
+    margin: 0 10px;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+  }

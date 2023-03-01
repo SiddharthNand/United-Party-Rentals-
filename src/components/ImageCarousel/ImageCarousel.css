@@ -1,16 +1,27 @@
 .ImageCarousel {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 80px;
-  margin-top: 40px;
+  max-width: 100%;
+}
 
+.ImageCarousel img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ImageCarousel button {
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 0.5rem;
 }
 
 .Testimonials {
   text-align: center;
   margin-top: 40px;
   font-family: 'Cinzel', serif;
+  text-decoration: underline;
 }
 
 .Previous {
@@ -42,28 +53,14 @@
   }
 
 
-  @media only screen and (max-width: 767px) {
+  @media (min-width: 768px) {
     .ImageCarousel {
-      margin-bottom: 40px;
-      margin-top: 20px;
-  
+      flex-direction: row;
     }
     
-    .Testimonials {
-      margin-top: 20px;
-      font-size: 18px;
-    }
-    
-    .Previous {
-      margin-left: 4px;
-      margin-right: 4px;
-      width: 40px;
-      height: 40px;
-    }
-    
-    .svg-icon {
-      width: 24px;
-      height: 24px;
+    .ImageCarousel button {
+      font-size: 2rem;
+      margin: 2rem;
+      padding: 1rem;
     }
   }
-  

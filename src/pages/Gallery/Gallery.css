@@ -3,46 +3,29 @@
     text-decoration: underline;
     padding-bottom: 1%;
     padding-top: 2%;
-}
-
-.gallery {
+    font-family: 'Cinzel', serif;
+  }
+  
+  .gallery {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-}
-
-.gallery img {
-    width: 400px;
-    height: 400px;
-}
-
-@media only screen and (max-width: 375px) {
-    .gallery img {
-        width: 100px;
-        height: auto;
-    }
-    .gallery {
-        flex-wrap: wrap;
-        margin: -5px; /* to remove the default margin of the images */
-    }
-    .gallery img + img {
-        margin-top: 10px; /* add spacing between images */
-    }
-}
-
-/* For larger devices */
-.photo-gallery {
-    text-align: center;
-    text-decoration: underline;
-    padding-bottom: 1%;
-    padding-top: 2%;
-}
-
-.gallery {
-    display: flex;
-    justify-content: center;
-}
-
-.gallery img {
+  }
+  
+  .gallery img {
     width: 300px;
     height: 300px;
-}
+  }
+  
+  @media (max-width: 767px) {
+    /* Set the table width to 100% to make it fill the screen */
+    .gallery {
+      width: 100%;
+    }
+  
+    /* Set the image width to 100% to make them resize based on screen width */
+    .gallery img {
+      width: 100%;
+    
+    }
+  }

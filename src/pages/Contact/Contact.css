@@ -1,9 +1,26 @@
 .eMail {
     text-align: center;
+    text-decoration: underline;
     padding-top: 24px;
+    font-family: 'Cinzel', serif;
 }
 
 .container {
     width: 800px;
     
 }
+
+@media only screen and (max-width: 767px) {
+    .container {
+      width: 100%;
+      padding: 0 10px;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .contact {
+      width: 100%;
+    }
+  }

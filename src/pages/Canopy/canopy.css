@@ -1,39 +1,73 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    justify-content: center; 
-    align-content: center; 
-    margin: 0 auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+.canopyPage {
+    background-color: white;
+  }
 
-.product-text-container {
-    text-align: center;
-}
-
-.product-card-container {
-    justify-self: center;
-    align-self: center;
-}
-
-img.canopy {
-    width:fit-content;
-    height: 300px;
-}
-
-h5 {
-    padding-top: 10px;
-}
-
-.canopy {
+  .canopy {
     text-align: center;
     text-decoration: underline;
     padding-bottom: 1%;
     padding-top: 2%;
+    font-family: 'Cinzel', serif;
 }
-
-.canopyPage {
-    background-color: white;
-}
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 400px);
+    grid-gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .product-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-color: #fff;
+  }
+  
+  .product-card-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-text-container {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    /* Adjust the font size and padding of the heading */
+    .canopy {
+      font-size: 30px;
+      padding: 20px 0;
+    }
+  
+    /* Center the product cards */
+    .grid-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      justify-content: center;
+      padding: 20px 0;
+    }
+  
+    /* Adjust the width and margin of the product cards */
+    .product-card-container {
+      width: 110%;
+      margin: 10px 0;
+    }
+  
+    /* Adjust the font size of the product titles */
+    .product-text-container {
+      font-size: 16px;
+    }
+  
+    /* Adjust the height of the product images */
+    img.canopy {
+      height: 200px;
+    }
+  }

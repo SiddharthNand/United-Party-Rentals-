@@ -4,7 +4,7 @@ import React from 'react';
 const Chairs = () => {
     return (
         <div className="chairPage">
-        <h1 className="canopy">Chairs</h1>
+        <h1 className="chair">Chairs</h1>
      <div className="grid-container">
          <div className="product-card-container">
              <img src="https://i.imgur.com/8mzbFk7.jpg"alt="canopy"  className="canopy"/>

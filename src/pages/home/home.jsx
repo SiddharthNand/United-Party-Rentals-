@@ -1,6 +1,7 @@
 import "./home.css"
 import ImageCarousel from "../../components/ImageCarousel/ImageCarousel";
 import React from 'react';
+import Contact from "../Contact/Contact";
 
 
 
@@ -12,7 +13,7 @@ export default function Home() {
                     <img src="https://i.imgur.com/W8esp2f.png" alt="background" className="image" />
                 </picture>
                 
-                <h1 className="header">THE PARTY STARTS WITH US!</h1>
+                <h1 className="header">THE PARTY STARTS WITH US</h1>
                 
 
             </article>
@@ -21,7 +22,7 @@ export default function Home() {
 
 
             <div className="businfo">
-                <h1 className="title">Visit our showroom!</h1>
+                <h1 className="title">Visit our showroom</h1>
 
                 <p className="title addy"><a href="https://goo.gl/maps/t9MAizKhZt6iyDXS9">7232 Stockton Blvd. Sacramento, CA 95823</a></p>
                 <div className="title1 title">
@@ -41,7 +42,9 @@ export default function Home() {
                 <a href="tel:+19164248300" className="contact">Contact Us</a>
             </div>
 
+            {/* <Contact /> */}
             <ImageCarousel />
+            
 
 
         </>
