@@ -18,7 +18,27 @@ const images = [
   "https://i.imgur.com/1TROEjs.png",
   "https://i.imgur.com/o15VW8A.png",
   "https://i.imgur.com/TUVL2E8.png",
-
+  "https://i.imgur.com/8ZT2axb.png",
+  "https://i.imgur.com/t33c44w.png",
+  "https://i.imgur.com/WzJ70MM.png",
+  "https://i.imgur.com/EhRtIhc.png",
+  "https://i.imgur.com/Pakm03r.png",
+  "https://i.imgur.com/d5VjoMV.png",
+  "https://i.imgur.com/mepyjSy.png",
+  "https://i.imgur.com/CtT1NH7.png",
+  "https://i.imgur.com/BxgA155.png",
+  "https://i.imgur.com/f13vSbM.png",
+  "https://i.imgur.com/ME2YJLZ.png",
+  "https://i.imgur.com/8kcycmT.png",
+  "https://i.imgur.com/A0OJlET.png",
+  "https://i.imgur.com/UERR5tF.png",
+  "https://i.imgur.com/h50DzOP.png",
+  "https://i.imgur.com/zH64Vxw.png",
+  "https://i.imgur.com/4RzVWxV.png",
+  "https://i.imgur.com/XzimuwW.png",
+  "https://i.imgur.com/qUFT62Z.png",
+  "https://i.imgur.com/KiqRYW5.png",
+  "https://i.imgur.com/sRm3DYB.png",
 
 ]
 

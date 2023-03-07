@@ -12,9 +12,9 @@ export default function Home() {
                 <picture className="picture">
                     <img src="https://i.imgur.com/W8esp2f.png" alt="background" className="image" />
                 </picture>
-                
+
                 <h1 className="header">THE PARTY STARTS WITH US</h1>
-                
+
 
             </article>
 
@@ -45,7 +45,7 @@ export default function Home() {
 
             {/* <Contact /> */}
             <ImageCarousel />
-            
+
 
 
         </>
