@@ -8,7 +8,7 @@ import Canopy from './pages/Canopy/canopy';
 import Chairs from './pages/Chairs/Chairs';
 import China from './pages/China/China';
 import Concession from './pages/Concession/Concession';
-import Contact from './pages/Contact/Contact';
+// import Contact from './pages/Contact/Contact';
 import Cookware from './pages/Cookware/Cookware';
 import Gallery from './pages/Gallery/Gallery'
 import ProductGallery from './pages/ProductGallery/ProductGallery'
@@ -38,7 +38,7 @@ function App() {
           <Route path="/Chairs" element={<Chairs />} />
           <Route path="/China" element={<China />} />
           <Route path="/Concession" element={<Concession />} />
-          <Route path='/Contact' element={<Contact />} />
+          {/* <Route path='/Contact' element={<Contact />} /> */}
           <Route path="/Cookware" element={<Cookware />} />
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/ProductGallery" element={<ProductGallery />} />

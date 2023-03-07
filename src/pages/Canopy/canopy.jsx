@@ -1,74 +1,58 @@
 import "./canopy.css"
+import React from 'react';
+import { Card, Col, Container, Row } from 'react-bootstrap';
 
-export default function Canopy () {
+const Canopy = (props) => {
     return (
-       <div className="canopyPage">
-       <h1 className="canopy">Canopy</h1>
-    <div className="grid-container">
-        <div className="product-card-container">
-            <img src="https://i.imgur.com/HxobU1J.jpg"alt="canopy" className="canopy" />
-            <div className="product-text-container">
-                <h5>10 x 10 Standard</h5>
-            </div>
+        <div className="canopyPage">
+            <h1>Canopy</h1>
+            <Container fluid>
+                <Row xs={1} md={3} className="g-4">
+                    {props.products.map((product) => (
+                        <Col key={product.id}>
+                            <div className="d-flex justify-content-center align-items-center" style={{ height: "400px" }}>
+                                <Card className="text-center border-0" style={{ width: "18rem" }}>
+                                    <Card.Img
+                                        variant="top"
+                                        src={product.imageUrl}
+                                        alt={product.name}
+                                        style={{ maxWidth: "250px", maxHeight: "250px", marginTop: "10px" }}
+                                        className="mx-auto"
+                                    />
+                                    <Card.Body>
+                                        <Card.Title dangerouslySetInnerHTML={{ __html: product.name }}></Card.Title>
+                                        <Card.Text>{product.price}</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </div>
+                        </Col>
+                    ))}
+                </Row>
+            </Container>
         </div>
-        <div className="product-card-container">
-            <img src="https://i.imgur.com/6cW6vcg.jpg"alt="canopy"  className="canopy"/>
-            <div className="product-text-container">
-                <h5>10 x 20 Standard</h5>
-            </div>
+    );
+}
+
+const products = [
+    { id: 1, name: "10 x 10 Standard", imageUrl: "https://i.imgur.com/HxobU1J.jpg" },
+    { id: 2, name: "10 x 20 Standard", imageUrl: "https://i.imgur.com/6cW6vcg.jpg" },
+    { id: 3, name: "15 x 15 Standard", imageUrl: "https://i.imgur.com/w4xKJxh.jpg" },
+    { id: 4, name: "15 x 20 Standard", imageUrl: "https://i.imgur.com/9PrNRnA.jpg" },
+    { id: 5, name: "20 x 20 Standard", imageUrl: "https://i.imgur.com/VJ0sQQT.jpg" },
+    { id: 6, name: "20 x 30 Standard", imageUrl: "https://i.imgur.com/8XQRC2H.jpg" },
+    { id: 7, name: "20 x 40 Standard", imageUrl: "https://i.imgur.com/niM8Kjo.jpg" },
+    { id: 8, name: "20 x 60 Standard", imageUrl: "https://i.imgur.com/hHlshr7.jpg" },
+    { id: 9, name: "30 x 30 Standard", imageUrl: "https://i.imgur.com/WKPZmc0.png" },
+    { id: 10, name: "40 x 40 Standard", imageUrl: "https://i.imgur.com/odM7HPo.jpg" },
+    { id: 11, name: "40 x 60 Standard", imageUrl: "https://i.imgur.com/24rJa5n.jpg" },
+];
+
+function App() {
+    return (
+        <div className="App">
+            <Canopy products={products} />
         </div>
-        <div className="product-card-container">
-            <img src="https://i.imgur.com/w4xKJxh.jpg"alt="canopy" className="canopy" />
-            <div className="product-text-container">
-                <h5>15 x 15 Standard</h5>
-            </div>
-        </div>
-        <div className="product-card-container">
-            <img src="https://i.imgur.com/9PrNRnA.jpg"alt="canopy" className="canopy"/>
-            <div className="product-text-container">
-                <h5>15 x 20 Standard</h5>
-            </div>
-        </div>
-        <div className="product-card-container">
-            <img src="https://i.imgur.com/VJ0sQQT.jpg"alt="canopy" className="canopy"/>
-            <div className="product-text-container">
-                <h5>20 x 20 Standard</h5>
-            </div>
-        </div> <div className="product-card-container">
-            <img src="https://i.imgur.com/8XQRC2H.jpg"alt="canopy" className="canopy"/>
-            <div className="product-text-container">
-                <h5>20 x 30 Standard</h5>
-            </div>
-        </div> <div className="product-card-container">
-            <img src="https://i.imgur.com/niM8Kjo.jpg"alt="canopy" className="canopy"/>
-            <div className="product-text-container">
-                <h5>20 x 40 Standard</h5>
-            </div>
-        </div> <div className="product-card-container">
-            <img src="https://i.imgur.com/hHlshr7.jpg"alt="canopy" className="canopy"/>
-            <div className="product-text-container">
-                <h5>20 x 60 Standard</h5>
-            </div>
-        </div> <div className="product-card-container">
-            <img src="https://i.imgur.com/WKPZmc0.png"alt="canopy" className="canopy"/>
-            <div className="product-text-container">
-                <h5>30 x 30 Standard</h5>
-            </div>
-            </div> <div className="product-card-container">
-            <img src="https://i.imgur.com/odM7HPo.jpg"alt="canopy" className="canopy"/>
-            <div className="product-text-container">
-                <h5>40 x 40 Standard</h5>
-            </div>
-            </div> <div className="product-card-container">
-            <img src="https://i.imgur.com/24rJa5n.jpg"alt="canopy" className="canopy"/>
-            <div className="product-text-container">
-                <h5>40 x 60 Standard</h5>
-            </div>
-            
-            
-        </div>
-        </div>
-       </div>
-    ); 
-};
-   
+    );
+}
+
+export default App;
