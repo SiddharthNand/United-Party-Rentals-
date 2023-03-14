@@ -20,6 +20,7 @@ import Misc from './pages/Misc/Misc';
 import Serving from './pages/Serving/Serving';
 import Staging from './pages/Staging/Staging';
 import Tables from './pages/Tables/Tables';
+import Vendors from './pages/Vendors/Vendors';
 
 
 
@@ -50,6 +51,7 @@ function App() {
           <Route path="/Serving" element={<Serving />} />
           <Route path="/Staging" element={<Staging />} />
           <Route path="/Tables" element={<Tables />} />
+          <Route path="/Vendors" element={<Vendors />} />
 
         </Routes>
         <Footer />

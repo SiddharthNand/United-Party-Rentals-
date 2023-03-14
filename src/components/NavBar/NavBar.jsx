@@ -51,13 +51,7 @@ export default function NavBar() {
               <NavDropdown.Item>Phone Number: <a href="tel:+19164248300" classname="info">(916)424-8300</a></NavDropdown.Item>
             </NavDropdown> */}
             {/* <Nav.Link href="/Contact">Contact Us</Nav.Link> */}
-            <NavDropdown title="Preferred Vendors" id="basic-nav-dropdown">
-              <table>
-                <tr>
-                  <td><NavDropdown.Item target="_blank" href="https://www.menefeespace.com" className='dropdown'>Menefee Canvas Space</NavDropdown.Item></td>
-                </tr>
-              </table>
-            </NavDropdown>
+            <Nav.Link href="/Vendors">Preferred Vendors</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
