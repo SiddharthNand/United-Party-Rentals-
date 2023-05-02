@@ -1,5 +1,6 @@
-import React from 'react'
-import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
+import React from 'react';
+import LazyLoad from 'react-lazyload';
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 const images = [
   "https://i.imgur.com/Jh4532I.png",
@@ -39,69 +40,57 @@ const images = [
   "https://i.imgur.com/qUFT62Z.png",
   "https://i.imgur.com/KiqRYW5.png",
   "https://i.imgur.com/sRm3DYB.png",
-
+  "https://i.imgur.com/bbRXGom.jpg",
+  "https://i.imgur.com/o8QkvrN.jpeg",
+  "https://i.imgur.com/WSGHWsi.jpeg",
+  "https://i.imgur.com/gPHBu1T.jpeg",
+  "https://i.imgur.com/oMeMBs8.jpeg",
+  "https://i.imgur.com/d2N9oJS.jpeg",
+  "https://i.imgur.com/WU3NcSX.jpeg",
+  "https://i.imgur.com/i2eDlqH.jpeg",
+  "https://i.imgur.com/z7U2zWo.jpeg",
+  "https://i.imgur.com/ASJq097.jpeg",
+  "https://i.imgur.com/XZxu9CB.jpeg",
+  "https://i.imgur.com/rusydLO.jpeg",
+  "https://i.imgur.com/yNzocPM.jpg",
+  "https://i.imgur.com/crxS48g.jpg",
+  "https://i.imgur.com/ScRm7Df.jpg",
+  "https://i.imgur.com/yPxfH1V.jpg",
+  "https://i.imgur.com/dJjMwb3.jpg",
+  "https://i.imgur.com/ycVsXmG.jpg",
+  "https://i.imgur.com/Hmzd5YY.jpg",
+  "https://i.imgur.com/MhNnOXl.jpg",
+  "https://i.imgur.com/TUXN76X.jpg",
+  "https://i.imgur.com/0W5WO1O.jpg",
+  "https://i.imgur.com/wh5mEWT.jpg",
+  "https://i.imgur.com/iHViTXh.jpg",
+  "https://i.imgur.com/s3HWVBb.jpg",
+  "https://i.imgur.com/wSWbIse.jpg",
+  "https://i.imgur.com/gPXQiBU.jpg",
+  "https://i.imgur.com/QaUwfcn.jpg",
+  "https://i.imgur.com/8OaPw56.jpg",
 ]
 
 const Gallery = () => {
-  // const [data, setData] = useState({img: '', i: 0})
-
-  // const viewImage = (img, i) => {
-  //   setData({img, i})
-  // }
-
-  // const imgAction = (action) => {
-  //   let i = data.i;
-  //   if(action === 'next-img'){
-  //     setData({img: images[i + 1], i: i + 1});
-  //   }
-  //   if(action === 'previous-img'){
-  //     setData({img: images[i - 1], i: i - 1});
-  //   }
-  //   if(!action){
-  //     setData({img: '', i: 0});
-  //   }
-  // }
-
   return (
-    <>
-    {/* {data.img && 
-      <div style={{
-        width: '100%',
-        height: '100%',
-        background: 'grey',
-        position: 'fixed',
-        display: 'flex',
-        justifyContent: 'center', 
-        alignItems: 'center',
-        overflow: 'hidden',
-      }}>
-        <button onClick={()=> imgAction()} style={{position: 'absolute', top: '10px', right: '10px'}}>X</button>
-        <button onClick={() => imgAction('previous-img')}>Previous</button>
-        <img src={data.img} style={{width: 'auto', maxWidth: '90%', maxHeight: '90%'}}/>
-        <button onClick={() => imgAction('next-img')}>Next</button>
-      </div>
-    } */}
-      <div style={{padding: '10px'}}>
-        <ResponsiveMasonry
-          columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
-          <Masonry gutter="20px">
-            {images.map((image, i) => (
+    <div style={{ padding: '10px' }}>
+      <ResponsiveMasonry
+        columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
+      >
+        <Masonry gutter="20px">
+          {images.map((image, i) => (
+            <LazyLoad key={i}>
               <img
-                key={i}
                 src={image}
-                style={{ width: "100%", display: "block", }}
+                style={{ width: "100%", display: "block" }}
                 alt=""
-                // onClick={() => viewImage(image, i)}
               />
-            ))}
-          </Masonry>
-        </ResponsiveMasonry>
-      </div>
-    </>
+            </LazyLoad>
+          ))}
+        </Masonry>
+      </ResponsiveMasonry>
+    </div>
+  );
+};
 
-  )
-}
-
-export default Gallery
-
-
+export default Gallery;
