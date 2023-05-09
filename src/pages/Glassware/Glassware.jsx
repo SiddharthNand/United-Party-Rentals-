@@ -26,7 +26,7 @@ const Glassware = () => {
                     {/* <td>Image</td> */}
                     <td>Glassware</td>
                     <td>Brandy Snifter Glass 20 oz</td>
-                    <td>$0.50 Each</td>
+                    <td>$0.75 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td>   */}

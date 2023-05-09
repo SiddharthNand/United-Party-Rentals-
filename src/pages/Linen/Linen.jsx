@@ -19,62 +19,68 @@ const Linen = () => {
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Linen</td>
-                    <td>106" Round Ivory Linen</td>
-                    <td>$16.00 Each</td>
+                    <td>108" Round Black Linen</td>
+                    <td>$17.00 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Linen</td>
-                    <td>106" Round White Linen</td>
-                    <td>$16.00 Each</td>
+                    <td>108" Round Ivory Linen</td>
+                    <td>$17.00 Each</td>
+                </tr>
+                <tr>
+                    {/* <td>Image</td> */}
+                    <td>Linen</td>
+                    <td>108" Round White Linen</td>
+                    <td>$17.00 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td>   */}
                     <td>Linen</td>
                     <td>120" Round Black Linen</td>
-                    <td>$16.00 Each</td>
+                    <td>$17.00 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Linen</td>
                     <td>120" Round Burgundy Linen</td>
-                    <td>$16.00 Each</td>
+                    <td>$17.00 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Linen</td>
                     <td>120" Round Ivory Linen</td>
-                    <td>$16.00 Each</td>
+                    <td>$17.00 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Linen</td>
                     <td>120" Round Grey Linen</td>
-                    <td>$16.00 Each</td>
+                    <td>$17.00 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Linen</td>
                     <td>120" Round Hunter Green Linen</td>
-                    <td>$16.00 Each</td>
+                    <td>$17.00 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Linen</td>
                     <td>120" Round Royal Blue Linen</td>
-                    <td>$16.00 Each</td>
+                    <td>$17.00 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Linen</td>
                     <td>120" Round Teal Linen</td>
-                    <td>$16.00 Each</td>
+                    <td>$17.00 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Linen</td>
                     <td>120" Round White Linen</td>
-                    <td>$16.00 Each</td>
+                    <td>$17.00 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
@@ -360,55 +366,55 @@ const Linen = () => {
                     {/* <td>Image</td> */}
                     <td>Linen</td>
                     <td>60" x 60" Black Linen</td>
-                    <td>$8.00 Each</td>
+                    <td>$11.00 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Linen</td>
                     <td>60" x 60" Burgandy Linen</td>
-                    <td>$8.00 Each</td>
+                    <td>$11.00 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Linen</td>
                     <td>60" x 60" Gold Linen</td>
-                    <td>$8.00 Each</td>
+                    <td>$11.00 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Linen</td>
                     <td>60" x 60" Hunter Green Linen</td>
-                    <td>$8.00 Each</td>
+                    <td>$11.00 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Linen</td>
                     <td>60" x 60" Navy Linen</td>
-                    <td>$8.00 Each</td>
+                    <td>$11.00 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Linen</td>
                     <td>60" x 60" Marigold Linen</td>
-                    <td>$8.00 Each</td>
+                    <td>$11.00 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Linen</td>
                     <td>60" x 60" Purple Linen</td>
-                    <td>$8.00 Each</td>
+                    <td>$11.00 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Linen</td>
                     <td>60" x 60" Red Linen</td>
-                    <td>$8.00 Each</td>
+                    <td>$11.00 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Linen</td>
                     <td>60" x 60" Royal Blue Linen</td>
-                    <td>$8.00 Each</td>
+                    <td>$11.00 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}

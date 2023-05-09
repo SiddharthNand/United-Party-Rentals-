@@ -20,73 +20,73 @@ const Flatware = () => {
                     {/* <td>Image</td> */}
                     <td>Flatware</td>
                     <td>Dinner Fork, s/s Towne</td>
-                    <td>$0.50 Each</td>
+                    <td>$0.75 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Flatware</td>
                     <td>Dinner Fork, Silver</td>
-                    <td>$0.50 Each</td>
+                    <td>$0.75 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td>   */}
                     <td>Flatware</td>
                     <td>Dinner Forks, s/s Fan</td>
-                    <td>$0.50 Each</td>
+                    <td>$0.75 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Flatware</td>
                     <td>Dinner Knife, s/s Towne</td>
-                    <td>$0.50 Each</td>
+                    <td>$0.75 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Flatware</td>
                     <td>Dinner Knife, Silver</td>
-                    <td>$0.50 Each</td>
+                    <td>$0.75 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Flatware</td>
                     <td>Dinner Knives s/s Fan</td>
-                    <td>$0.50 Each</td>
+                    <td>$0.75 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Flatware</td>
                     <td>Salad Fork, s/s Fan</td>
-                    <td>$0.50 Each</td>
+                    <td>$0.75 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Flatware</td>
                     <td>Salad Fork, s/s Towne</td>
-                    <td>$0.50 Each</td>
+                    <td>$0.75 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Flatware</td>
                     <td>Salad Fork, Silver</td>
-                    <td>$0.50 Each</td>
+                    <td>$0.75 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Flatware</td>
                     <td>Teaspoon, Fan</td>
-                    <td>$0.50 Each</td>
+                    <td>$0.75 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Flatware</td>
                     <td>Teaspoon, Silver</td>
-                    <td>$0.50 Each</td>
+                    <td>$0.75 Each</td>
                 </tr>
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Flatware</td>
                     <td>Teaspoon, Towne</td>
-                    <td>$0.50 Each</td>
+                    <td>$0.75 Each</td>
                 </tr>
             </tbody>
         </Table>
