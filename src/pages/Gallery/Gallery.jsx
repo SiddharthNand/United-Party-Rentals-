@@ -40,8 +40,6 @@ const images = [
   "https://i.imgur.com/qUFT62Z.png",
   "https://i.imgur.com/KiqRYW5.png",
   "https://i.imgur.com/sRm3DYB.png",
-  // "https://i.imgur.com/bbRXGom.jpg",
-  // "https://i.imgur.com/o8QkvrN.jpeg",
   "https://i.imgur.com/WSGHWsi.jpeg",
   "https://i.imgur.com/gPHBu1T.jpeg",
   "https://i.imgur.com/oMeMBs8.jpeg",
@@ -64,9 +62,6 @@ const images = [
   "https://i.imgur.com/0W5WO1O.jpg",
   "https://i.imgur.com/wh5mEWT.jpg",
   "https://i.imgur.com/iHViTXh.jpg",
-  // "https://i.imgur.com/s3HWVBb.jpg",
-  "https://i.imgur.com/wSWbIse.jpg",
-  // "https://i.imgur.com/gPXQiBU.jpg",
   "https://i.imgur.com/QaUwfcn.jpg",
   "https://i.imgur.com/8OaPw56.jpg",
 ]
