@@ -36,7 +36,7 @@ export default function Home() {
 
                     <p className="title addy"><strong className="seasonHead">Summer Hours (April - Dec):</strong>
                         <br></br>Monday to Friday: 9:00 am- 5:00 pm
-                        <br></br>Saturday: 9:00 am- 3:00 pm
+                        <br></br>Saturday: 9:00 am- 2:00 pm
                         <br></br>Sunday: CLOSED
                     </p>
                 </div>
