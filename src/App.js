@@ -21,6 +21,8 @@ import Serving from './pages/Serving/Serving';
 import Staging from './pages/Staging/Staging';
 import Tables from './pages/Tables/Tables';
 import Vendors from './pages/Vendors/Vendors';
+import Auburn from './cities/Auburn/Auburn'
+
 
 
 
@@ -52,6 +54,7 @@ function App() {
           <Route path="/Staging" element={<Staging />} />
           <Route path="/Tables" element={<Tables />} />
           <Route path="/Vendors" element={<Vendors />} />
+          <Route path="/Auburn" element={<Auburn />} />
 
         </Routes>
         <Footer />
