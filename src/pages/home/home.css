@@ -195,7 +195,9 @@
   .title2 {
     font-size: 2em;
     text-align: center;
-    margin-bottom: 0.5em;
+    margin-bottom: 10px;
+    font-family: 'Golos Text',;
+    text-decoration: underline;
   }
 
   .addy {
@@ -327,3 +329,28 @@
   background: #000;
   color: #EEEEEE;
 }
+
+/* You can adjust the column count and gap as needed */
+.areas-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* Adjust the gap between items */
+  list-style: none;
+  padding: 0;
+}
+
+/* Add an underline to the <a> tags within list items */
+.areas-list li a {
+  text-decoration: underline;
+  color: #333; /* Adjust link color as needed */
+  font-weight: bold;
+}
+
+
+.area-link {
+  text-decoration: none;
+  color: #333; /* Adjust link color as needed */
+  font-weight: bold;
+}
+
+/* Additional styles as needed */

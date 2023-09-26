@@ -22,6 +22,41 @@ import Staging from './pages/Staging/Staging';
 import Tables from './pages/Tables/Tables';
 import Vendors from './pages/Vendors/Vendors';
 import Auburn from './cities/Auburn/Auburn'
+import Clarksburg from './cities/Clarksburg/Clarksburg'
+import Courtland from './cities/Courtland/Courtland'
+import Davis from './cities/Davis/Davis'
+import ElkGrove from './cities/ElkGrove/ElkGrove'
+import Folsom from './cities/Folsom/Folsom'
+import Galt from './cities/Galt/Galt'
+import GraniteBay from './cities/GraniteBay/GraniteBay'
+import Lincoln from './cities/Lincoln/Lincoln'
+import Lodi from './cities/Lodi/Lodi'
+import Loomis from './cities/Loomis/Loomis'
+import RanchoCordova from './cities/RanchoCordova/RanchoCordova'
+import Rocklin from './cities/Rocklin/Rocklin'
+import Roseville from './cities/Roseville/Roseville'
+import Sacramento from './cities/Sacramento/Sacramento'
+import WalnutGrove from './cities/WalnutGrove/WalnutGrove'
+import WestSacramento from './cities/WestSacramento/WestSacramento'
+import Wilton from './cities/Wilton/Wilton'
+import Woodland from './cities/Woodland/Woodland'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -55,6 +90,40 @@ function App() {
           <Route path="/Tables" element={<Tables />} />
           <Route path="/Vendors" element={<Vendors />} />
           <Route path="/Auburn" element={<Auburn />} />
+          <Route path="/Clarksburg" element={<Clarksburg />} />
+          <Route path="/Courtland" element={<Courtland />} />
+          <Route path="/Davis" element={<Davis />} />
+          <Route path="/ElkGrove" element={<ElkGrove />} />
+          <Route path="/Folsom" element={<Folsom />} />
+          <Route path="/Galt" element={<Galt />} />
+          <Route path="/GraniteBay" element={<GraniteBay />} />
+          <Route path="/Lincoln" element={<Lincoln />} />
+          <Route path="/Lodi" element={<Lodi />} />
+          <Route path="/Loomis" element={<Loomis />} />
+          <Route path="/RanchoCordova" element={<RanchoCordova />} />
+          <Route path="/Rocklin" element={<Rocklin />} />
+          <Route path="/Roseville" element={<Roseville />} />
+          <Route path="/Sacramento" element={<Sacramento />} />
+          <Route path="/WalnutGrove" element={<WalnutGrove />} />
+          <Route path="/WestSacramento" element={<WestSacramento />} />
+          <Route path="/Wilton" element={<Wilton />} />
+          <Route path="/Woodland" element={<Woodland />} />
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         </Routes>
         <Footer />
