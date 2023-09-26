@@ -1,119 +1,17 @@
-  /* .logo {
-    height: 136px;
-    width: 336px;
-    margin: 0 auto;
-    
-    display: flex;
-    justify-content: center;
-    justify-items:center ;
-    background-color: rgb(229, 227, 227);
-  }
-
-  .navbar-toggler{
-    background-color: rgb(229, 227, 227);
-  }
-
-  .navbar {
-    font-family: 'Golos Text',;
-    background-color: rgb(210, 210, 210);
-  }
-
-  
-  */
-
-  /* NavBar.css */
-
-/* Default styles for larger screens */
-.navbar {
-  font-family: 'Golos Text', sans-serif;
-  background-color: rgb(210, 210, 210);
-  min-height: 80px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .logo {
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-.logo img {
   height: 136px;
   width: 336px;
-  background-color: rgb(229, 227, 227);
-  display: inline-block;
-}
-
-.navbar-dark .navbar-nav .nav-link,
-.navbar-dark .navbar-nav .nav-item {
-  color: #000000;
-  font-weight: bold;
-  padding: 0 15px;
-  transition: color 0.3s;
-}
-
-.navbar-dark .navbar-nav .nav-link:hover,
-.navbar-dark .navbar-nav .nav-item:hover {
-  color: #ff9900;
-}
-
-.dropdown-menu {
-  background-color: #333;
-}
-
-.dropdown-item {
-  color: #fff;
-  font-weight: bold;
-  padding: 10px 20px;
-  transition: background-color 0.3s;
-}
-
-.dropdown-item:hover {
-  background-color: #ff9900;
-  color: #333;
-}
-
-.navbar-dark .navbar-nav .nav-link:last-child {
-  margin-right: 0;
-}
-
-.navbar-dark .navbar-nav {
-  flex-direction: row;
+  margin: 0 auto;
+  display: flex;
   justify-content: center;
-  align-items: center;
+  justify-items:center ;
 }
 
-/* Mobile-friendly styles for screens smaller than 768px (e.g., mobile devices) */
-@media (max-width: 768px) {
-  .navbar {
-    min-height: 60px; /* Adjust navbar height for smaller screens */
-  }
+.navbar-toggler{
+  background-color: rgb(229, 227, 227);
+}
 
-  .logo img {
-    height: 80px; /* Adjust logo height for smaller screens */
-    width: auto; /* Allow the logo width to adjust based on its height */
-  }
-
-  .navbar-dark .navbar-toggler-icon {
-    color: #fff; /* Hamburger icon color on smaller screens */
-  }
-
-  .navbar-collapse {
-    background-color: #333; /* Background color for the mobile menu */
-  }
-
-  .navbar-collapse .navbar-nav {
-    flex-direction: column; /* Stack menu items vertically for mobile */
-    text-align: center; /* Center text for mobile menu items */
-  }
-
-  .navbar-collapse .navbar-nav .nav-item {
-    padding: 10px 0; /* Adjust spacing for mobile menu items */
-  }
-
-  .navbar-collapse .navbar-nav .nav-link {
-    color: #fff;
-    font-weight: bold;
-  }
+.navbar {
+  font-family: 'Golos Text',;
+  background-color: rgb(210, 210, 210);
 }

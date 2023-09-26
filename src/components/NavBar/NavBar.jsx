@@ -1,22 +1,18 @@
-import React from 'react';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, } from 'react-bootstrap';
 import './NavBar.css';
+
 
 export default function NavBar() {
   return (
-    <Navbar expand="lg" variant="dark" className="navbar">
-      <Navbar.Brand href="/">
-        <img
-          src="https://i.imgur.com/59MnZ2J.png"
-          alt="Logo"
-          className="logo"
-        />
-      </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="m-auto">
-          <Nav.Link href="/">Home</Nav.Link>
-          <NavDropdown title="Rentals" id="basic-nav-dropdown">
+    <>
+
+      <div href="/"><img src="https://i.imgur.com/59MnZ2J.png" alt='logo' className='logo'></img></div>
+      <Navbar bg="" expand="lg" className="navbar">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="m-auto">
+            <Nav.Link href="/">Home</Nav.Link>
+            <NavDropdown title="Rentals" id="basic-nav-dropdown">
               <table>
                 <tr>
                   <td><NavDropdown.Item href="/bar" className='dropdown'>Bar & Beverage</NavDropdown.Item></td>
@@ -49,6 +45,7 @@ export default function NavBar() {
                 </tr>
               </table>
             </NavDropdown>
+          
             <NavDropdown title="Areas We Serve" id="basic-nav-dropdown">
               <table>
                 <tr>
@@ -103,10 +100,21 @@ export default function NavBar() {
                 </tr>
               </table>
             </NavDropdown>
-          <Nav.Link href="/gallery">Gallery</Nav.Link>
-          <Nav.Link href="/Vendors">Preferred Vendors</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
-  );
+            <Nav.Link href="/gallery">Gallery</Nav.Link>
+            {/* <NavDropdown title="Company Info" id="basic-nav-dropdown">
+              <NavDropdown.Item>Address: <a classname="info" href="https://goo.gl/maps/t9MAizKhZt6iyDXS9">7232 Stockton Blvd. Sacramento, CA 95823</a></NavDropdown.Item>
+              <NavDropdown.Item>Phone Number: <a href="tel:+19164248300" classname="info">(916)424-8300</a></NavDropdown.Item>
+            </NavDropdown> */}
+            <Nav.Link href="/Contact">Contact Us</Nav.Link>
+            <NavDropdown title="Preferred Vendors" id="basic-nav-dropdown">
+              <NavDropdown.Item>
+                <a href="https://www.menefeespace.com/">Menefee Canvas Space</a>
+              </NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+
+    </>
+  )
 }

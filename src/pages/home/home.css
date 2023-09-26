@@ -354,3 +354,10 @@
 }
 
 /* Additional styles as needed */
+
+/* Add a thin box (border) around each li item */
+.areas-list li {
+  border: 1px solid #ccc; /* Add a 1px solid border with a gray color */
+  padding: 5px 1px; /* Add some padding to create space around the text */
+  margin: 5px 0; /* Add margin to separate each list item */
+}
