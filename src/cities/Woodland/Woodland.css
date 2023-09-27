@@ -48,4 +48,7 @@ body {
     margin-bottom: 10px;
     text-align: center;
   }
-  
+ 
+  .party-rentals {
+    padding: 20px; /* Adjust the value to control the amount of padding */
+  }
