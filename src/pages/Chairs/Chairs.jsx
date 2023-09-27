@@ -35,14 +35,14 @@ const Chairs = (props) => {
 
 const products = [
   { id: 1, name: "White Folding", price: "$1.25 Each", imageUrl: "https://i.imgur.com/8mzbFk7.jpg" },
-  { id: 2, name: "Black Padded Resin", price: "$3.75 Each", imageUrl: "https://i.imgur.com/CiRIFSu.jpg" },
-  { id: 3, name: "White Padded Resin", price: "$3.50 Each", imageUrl: "https://i.imgur.com/pq01j1N.jpg" },
-  { id: 4, name: "White Folding CHILDREN", price: "$1.25 Each", imageUrl: "https://i.imgur.com/8mzbFk7.jpg" },
-  { id: 5, name: "Chivari Gold w/padding", price: "$8.00 Each", imageUrl: "https://i.imgur.com/JsXTgFy.jpg" },
-  { id: 6, name: "Chivari Silver w/padding", price: "$8.00 Each", imageUrl: "https://i.imgur.com/jOqdsK8.jpg" },
-  { id: 7, name: "Barstool", price: "$8.00 Each", imageUrl: "https://i.imgur.com/PUqOl5p.jpg" },
-  { id: 8, name: "White Wicker <br> ***Cushion Not Included***", price: "$50.00 Each", imageUrl: "https://i.imgur.com/BYIb8cR.jpg" },
   { id: 9, name: "White Bistro", price: "$2.00 Each", imageUrl: "https://i.imgur.com/gQbZ7GK.jpg" },
+   { id: 3, name: "White Padded Resin", price: "$3.50 Each", imageUrl: "https://i.imgur.com/pq01j1N.jpg" },
+   { id: 2, name: "Black Padded Resin", price: "$3.75 Each", imageUrl: "https://i.imgur.com/CiRIFSu.jpg" },
+   { id: 5, name: "Chivari Gold w/padding", price: "$8.00 Each", imageUrl: "https://i.imgur.com/JsXTgFy.jpg" },
+   { id: 6, name: "Chivari Silver w/padding", price: "$8.00 Each", imageUrl: "https://i.imgur.com/jOqdsK8.jpg" },
+  { id: 7, name: "Barstool", price: "$8.00 Each", imageUrl: "https://i.imgur.com/PUqOl5p.jpg" },
+  { id: 4, name: "White Folding CHILDREN", price: "$1.25 Each", imageUrl: "https://i.imgur.com/8mzbFk7.jpg" },
+  { id: 8, name: "White Wicker <br> ***Cushion Not Included***", price: "$50.00 Each", imageUrl: "https://i.imgur.com/BYIb8cR.jpg" },
 ];
 
 function App() {

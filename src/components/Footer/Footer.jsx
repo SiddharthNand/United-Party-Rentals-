@@ -42,7 +42,6 @@ export default function Footer() {
       </div>
       <p>Copyright © 2022 United Party Rentals
         <br></br>
-        Created by: <a href="https://sidharthnand.dev/" target="_blank" rel="noreferrer">Sidharth Nand </a>
       </p>
     </footer>
 

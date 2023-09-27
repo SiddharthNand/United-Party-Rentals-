@@ -49,7 +49,7 @@ export default function Home() {
 
 
             <div className="areas-we-serve">
-  <h2 className="title2">AREAS WE SERVE</h2>
+  <h2 className="title2">Service Areas and Nearby Cities</h2>
   <ul className="areas-list">
     <li>
       <a href="/Auburn" className="area-link btn">Auburn, CA</a>

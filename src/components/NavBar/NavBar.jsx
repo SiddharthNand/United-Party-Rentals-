@@ -36,7 +36,7 @@ export default function NavBar() {
 
                 </tr>
                 <tr>
-                  <td><NavDropdown.Item href="/Misc" className='dropdown'>Misc</NavDropdown.Item></td>
+                  <td><NavDropdown.Item href="/Misc" className='dropdown'>Miscellaneous</NavDropdown.Item></td>
                   <td><NavDropdown.Item href="/Serving" className='dropdown'>Serving</NavDropdown.Item></td>
                 </tr>
                 <td><NavDropdown.Item href="/Staging" className='dropdown'>Staging & Flooring</NavDropdown.Item></td>

@@ -1,4 +1,3 @@
-import "./canopy.css"
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 
@@ -6,11 +5,12 @@ const Canopy = (props) => {
     return (
         <div className="canopyPage">
             <h1 className="canopyHeading">Canopy</h1>
+            <p>All canopies are white. See <a href="/gallery">gallery</a> for images.</p>
             <Container fluid>
                 <Row xs={1} md={3} className="g-4">
                     {props.products.map((product) => (
                         <Col key={product.id}>
-                            <div className="d-flex justify-content-center align-items-center" style={{ height: "400px" }}>
+                            <div className="d-flex flex-column justify-content-center align-items-center" style={{ height: "400px" }}>
                                 <Card className="text-center border-0" style={{ width: "18rem" }}>
                                     <Card.Img
                                         variant="top"
@@ -22,6 +22,7 @@ const Canopy = (props) => {
                                     <Card.Body>
                                         <Card.Title dangerouslySetInnerHTML={{ __html: product.name }}></Card.Title>
                                         <Card.Text>{product.price}</Card.Text>
+                                        <Card.Text>Call for Quote</Card.Text> {/* Add this line */}
                                     </Card.Body>
                                 </Card>
                             </div>
@@ -56,3 +57,5 @@ function App() {
 }
 
 export default App;
+
+

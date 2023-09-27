@@ -6,6 +6,7 @@ const Decoration = () => {
     return (
         <>
         <h1 className="Decoration">Decoration</h1>
+        <p>Please visit our showroom for samples of the following items.</p>
         <Table striped bordered>
             <thead>
                 <tr>
@@ -103,7 +104,7 @@ const Decoration = () => {
                 <tr>
                     {/* <td>Image</td> */}
                     <td>Decoration</td>
-                    <td>Wishing Well, white</td>
+                    <td>Wishing Well, White</td>
                     <td>$40.00</td>
                 </tr>
             </tbody>
