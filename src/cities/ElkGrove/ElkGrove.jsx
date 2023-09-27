@@ -50,9 +50,9 @@ function ElkGrove() {
 
       <h2>Why Choose Us for Your Elk Grove Party Rentals?</h2>
       <ol>
-        <li>Reliability: We have years of experience serving the greater Sacramento area.</li>
-        <li>Quality: All our products meet high-quality standards.</li>
-        <li>Flexibility: Customizable packages to fit your unique needs.</li>
+        <li><strong>Reliability</strong>: We have years of experience serving the greater Sacramento area.</li>
+        <li><strong>Quality</strong>: All our products meet high-quality standards.</li>
+        <li><strong>Flexibility</strong>: Customizable packages to fit your unique needs.</li>
       </ol>
 
       <p>
