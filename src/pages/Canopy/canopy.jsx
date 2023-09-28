@@ -1,4 +1,6 @@
 import React from 'react';
+import "./canopy.css"
+
 import { Card, Col, Container, Row } from 'react-bootstrap';
 
 const Canopy = (props) => {

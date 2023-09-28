@@ -105,7 +105,6 @@ export default function NavBar() {
               <NavDropdown.Item>Address: <a classname="info" href="https://goo.gl/maps/t9MAizKhZt6iyDXS9">7232 Stockton Blvd. Sacramento, CA 95823</a></NavDropdown.Item>
               <NavDropdown.Item>Phone Number: <a href="tel:+19164248300" classname="info">(916)424-8300</a></NavDropdown.Item>
             </NavDropdown> */}
-            <Nav.Link href="/Contact">Contact Us</Nav.Link>
             <NavDropdown title="Preferred Vendors" id="basic-nav-dropdown">
               <NavDropdown.Item>
                 <a href="https://www.menefeespace.com/">Menefee Canvas Space</a>

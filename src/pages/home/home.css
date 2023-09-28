@@ -1,156 +1,3 @@
-/* .article {
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-}
-
-.image {
-    object-fit: cover;
-    width: 100%;
-    height: 750px;
-    filter: brightness(.75);
-}
-
-.header {
-    font-size: 64px;
-    color: white;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    position: absolute;
-    top: 0px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: fit-content;
-    margin: auto;
-    font-family: 'Golos Text',;
-}
-
-
-
-.intro {
-    font-size: 24px;
-    color: black;
-    text-align: center;
-    justify-content: center;
-    width: 800px;
-    margin: 0 auto;
-    font-family: 'Golos Text',;
-}
-
-
-
-.contact{ 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 160px;
-    padding: 12px 24px;
-    border: 1px solid #4f4f4f;
-    border-radius: 4px;
-    transition: all 0.2s ease-in;
-    position: relative;
-    overflow: hidden;
-    font-size: 19px;
-    color: black;
-    z-index: 1;
-    background-color: #C0C0C0;
-    margin: 0 auto;
-    margin-bottom: 8px;
-    min-width: 120px;
-    background: rgb(157, 30, 30);
-    color: #EEEEEE;
-    border: none;
-    border-radius: 0 !important;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    outline: none;
-    transition: all 0.3s ease-in-out;
-   }
-
-.contact:hover {
-    box-shadow: #EEEEEE 0px 0px 0px 11px, #161616 0px 0px 0px 10px;
-    background: #000;
-    color: #EEEEEE;
-  }
-
-.logohome {
-    width: 800px;
-}
-
-.businfo { 
-  margin: 0 auto;
-  padding-top: 50px;
-}
-
-.seasonHead {
-  text-decoration: underline;
-}
-
-.title2 {
-    text-align: center;
-    padding-top: 8px;
-    font-family: 'Golos Text',;
-    text-decoration: underline;
-    
-}
-
-.title {
-  text-align: center;
-  padding-top: 8px;
-  font-family: 'Golos Text',;
-  
-}
-
-
-.title1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.addy {
-    font-size: 20px;
-    padding: 0px 32px 0px;
-}
-
-.yelp {
-    padding-top: 48px;
-    display: flex;
-    justify-content: center;
-}
-
-.review1 {
-    border: 1px solid red;
-}
-
-
-
-@media (max-width: 767px) {
-  .header {
-    font-size: 28px;
-  }
-
-  .businfo {
-    padding: 30px;
-  }
-
-  .title {
-    font-size: 24px;
-  }
-
-  .addy {
-    font-size: 18px;
-  }
-}
-
-   */
-
-
-
    body {
     margin: 0;
     font-family: 'Golos Text',;
@@ -338,8 +185,21 @@
   padding: 0;
 }
 
+.rent-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style: none;
+  padding: 0;
+}
+
 /* Add an underline to the <a> tags within list items */
 .areas-list li a {
+  text-decoration: underline;
+  color: #333; /* Adjust link color as needed */
+  font-weight: bold;
+}
+
+.rent-list li a {
   text-decoration: underline;
   color: #333; /* Adjust link color as needed */
   font-weight: bold;
@@ -357,8 +217,14 @@
 /* Add a thin box (border) around each li item */
 .areas-list li {
   /* border: 1px solid #ccc; Add a 1px solid border with a gray color */
-  padding: 5px 1px; /* Add some padding to create space around the text */
-  margin: 5px 0; /* Add margin to separate each list item */
+  padding: 1px 1px; /* Add some padding to create space around the text */
+  margin: 1px 0; /* Add margin to separate each list item */
+}
+
+.rent-list li {
+  /* border: 1px solid #ccc; Add a 1px solid border with a gray color */
+  padding: 1px 1px; /* Add some padding to create space around the text */
+  margin: 1px 0; /* Add margin to separate each list item */
 }
 
 .btn {
@@ -368,10 +234,8 @@
   letter-spacing: 2.5px;
   font-weight: 500;
   color: #000;
-  /* background-color: #fff; */
   border: none;
   border-radius: 6px;
-  /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); */
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
@@ -385,4 +249,59 @@
 
 .btn:active {
   transform: translateY(-1px);
+}
+
+/* Your existing CSS styles... */
+
+/* Add styles for the container of the two columns */
+.column-container {
+  display: flex;
+  justify-content: space-between; /* Space the columns evenly */
+  flex-wrap: wrap; /* Allow columns to wrap to the next row if needed */
+}
+
+/* Styles for each column */
+.areas-we-serve {
+  flex: 1; /* Each column takes up equal space */
+  max-width: calc(50% - 10px); /* Adjust the width of each column */
+  margin: 0 5px; /* Add some margin for spacing between columns */
+  border: 1px solid #4f4f4f;
+}
+
+.areas-we-rent {
+  flex: 1; /* Each column takes up equal space */
+  max-width: calc(50% - 10px); /* Adjust the width of each column */
+  margin: 0 5px; /* Add some margin for spacing between columns */
+  border: 1px solid #4f4f4f;
+}
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+  .contact {
+    font-size: 1em; /* Adjust font size of contact buttons */
+  }
+
+  .carousel .prev,
+  .carousel .next {
+    font-size: 1.5em; /* Adjust font size of carousel navigation buttons */
+  }
+
+  .areas-list {
+    grid-template-columns: repeat(2, 1fr); /* Display list items in a single column on smaller screens */
+  }
+
+  .rent-list {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+
+  .areas-we-serve {
+    max-width: 100%; /* Allow columns to take up the full width on smaller screens */
+    margin-bottom: 12px;
+  }
+
+  .areas-we-rent {
+    max-width: 100%; /* Allow columns to take up the full width on smaller screens */
+    margin-bottom: 12px;
+  }
+
 }

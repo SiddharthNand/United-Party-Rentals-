@@ -6,6 +6,7 @@ const Glassware = () => {
     return (
         <>
         <h1 className="Glassware">Glassware</h1>
+        <p>Please visit our showroom for samples of the following items.</p>
         <Table striped bordered>
             <thead>
                 <tr>

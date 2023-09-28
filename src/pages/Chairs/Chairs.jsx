@@ -6,6 +6,8 @@ const Chairs = (props) => {
     return (
       <div className="chairPage">
         <h1 className="chairHeading">Chairs</h1>
+        <p>Please visit our showroom for samples of the following items.</p>
+
    <Container fluid>
           <Row xs={1} md={3} className="g-4">
             {props.products.map((product) => (

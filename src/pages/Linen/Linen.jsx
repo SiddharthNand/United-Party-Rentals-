@@ -6,6 +6,7 @@ const Linen = () => {
     return (
         <>
         <h1 className="Linen">Linen</h1>
+        <p>Please visit our showroom for samples of the following items.</p>
         <Table striped bordered>
             <thead>
                 <tr>

@@ -6,6 +6,7 @@ const Staging = () => {
     return (
         <>
         <h1 className="Staging">Staging & Flooring</h1>
+        <p>Please visit our showroom for samples of the following items.</p>
         <Table striped bordered>
             <thead>
                 <tr>

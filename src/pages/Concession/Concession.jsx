@@ -6,6 +6,7 @@ const Concession = () => {
     return (
         <>
         <h1 className="Concession">Concession</h1>
+        <p>Please visit our showroom for samples of the following items.</p>
         <Table striped bordered>
             <thead>
                 <tr>
