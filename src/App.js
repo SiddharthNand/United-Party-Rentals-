@@ -25,6 +25,7 @@ import Auburn from './cities/Auburn/Auburn'
 import Clarksburg from './cities/Clarksburg/Clarksburg'
 import Courtland from './cities/Courtland/Courtland'
 import Davis from './cities/Davis/Davis'
+import Dixon from './cities/Dixon/Dixon'
 import ElkGrove from './cities/ElkGrove/ElkGrove'
 import Folsom from './cities/Folsom/Folsom'
 import Galt from './cities/Galt/Galt'
@@ -93,6 +94,7 @@ function App() {
           <Route path="/Clarksburg" element={<Clarksburg />} />
           <Route path="/Courtland" element={<Courtland />} />
           <Route path="/Davis" element={<Davis />} />
+          <Route path="/Dixon" element={<Dixon />} />
           <Route path="/ElkGrove" element={<ElkGrove />} />
           <Route path="/Folsom" element={<Folsom />} />
           <Route path="/Galt" element={<Galt />} />

@@ -160,7 +160,7 @@
   margin: 0 auto;
   margin-bottom: 8px;
   min-width: 120px;
-  background: rgb(157, 30, 30);
+  background: rgb(47, 48, 112);
   color: #EEEEEE;
   border: none;
   border-radius: 0 !important;
@@ -242,7 +242,7 @@
 }
 
 .btn:hover {
-  background: rgb(157, 30, 30);
+  background: rgb(47, 48, 112);
   color: #fff;
   transform: translateY(-7px);
 }

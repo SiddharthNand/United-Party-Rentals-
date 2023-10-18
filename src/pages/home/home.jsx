@@ -30,19 +30,20 @@ export default function Home() {
                 <div className="title1 title">
                     <p className="title addy"><strong className="seasonHead">Winter Hours (Jan-Mar): </strong>
                         <br></br>Monday to Friday: 9:00 am- 4:00 pm
-                        <br></br> Saturday: 9:00 am - 2:00 pm
+                        <br></br> Saturday: 9:00 am - 1:00 pm
                         <br></br>Sunday: CLOSED</p>
 
                     <br></br>
 
                     <p className="title addy"><strong className="seasonHead">Summer Hours (April - Dec):</strong>
                         <br></br>Monday to Friday: 9:00 am- 5:00 pm
-                        <br></br>Saturday: 9:00 am- 2:00 pm
+                        <br></br>Saturday: 9:00 am- 1:00 pm
                         <br></br>Sunday: CLOSED
                     </p><br></br>
                 </div>
                 <a href="tel:+19164248300" className="contact">Call Us!</a>
-                <a href="tel:+19164248300" className="contact">Email Us!</a>
+                <a href="upr_inc@yahoo.com" className="contact">Email Us!</a>
+
             </div>
 
 

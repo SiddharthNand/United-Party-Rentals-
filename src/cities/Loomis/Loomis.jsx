@@ -3,7 +3,7 @@ import React from 'react';
 function Loomis() {
   return (
     <div>
-      <h1>United Party Rentals: Your Event-Enhancing Partner in Loomis, CA</h1>
+      <h1>Your Event-Enhancing Partner in Loomis, CA</h1>
       <p>
         Are you gearing up for a remarkable event in the charming town of Loomis, CA? Your search for exceptional party rentals ends here! United Party Rentals, your premier partner in event perfection, is at your service. Whether you're orchestrating a dream wedding, a lively birthday celebration, a corporate gala, or any other special occasion, we've got the expertise and resources to make it extraordinary. In this blog post, we'll explore what makes United Party Rentals the top choice for discerning event planners in Loomis, CA.
       </p>

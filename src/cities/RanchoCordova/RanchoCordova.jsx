@@ -3,7 +3,7 @@ import React from 'react';
 function RanchoCordova() {
   return (
     <div className="party-rental-guide">
-      <h1>The Ultimate Party Rental Guide in Rancho Cordova, CA: United Party Rentals</h1>
+      <h1>The Ultimate Party Rental Guide in Rancho Cordova, CA</h1>
       <p>Planning a memorable event in Rancho Cordova, CA, just got easier with United Party Rentals by your side! Whether you're hosting a birthday bash, a corporate event, a wedding, or any other special occasion, our party rental services are here to turn your vision into reality. In this blog post, we'll explore the top party rental solutions in Rancho Cordova and why United Party Rentals stands out as your go-to choice.</p>
 
       <h2>Variety of Party Rental Options</h2>

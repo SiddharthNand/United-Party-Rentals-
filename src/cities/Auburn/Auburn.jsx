@@ -1,188 +1,31 @@
 import React from 'react';
-import { Table } from 'react-bootstrap';
 
-const Staging = () => {
-    return (
-        <>
-        <h1 className="Staging">Staging & Flooring</h1>
-        <Table striped bordered>
-            <thead>
-                <tr>
-                    {/* <th>Image</th> */}
-                    <th>Categories</th>
-                    <th>Products</th> 
-                    <th>Price</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Carpet Runner 30' Red</td>
-                    <td>$55.00</td>
-                </tr>
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Carpet Runner, 25' Red</td>
-                    <td>$55.00</td>
-                </tr>
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Carpet Runner, 50' Red</td>
-                    <td>$75.00</td>
-                </tr>
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Carpet Runner, 50' White</td>
-                    <td>$75.00</td>
-                </tr>
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Dance Floor, 3'x 3', Indoor</td>
-                    <td>$30.00</td>
-                </tr><tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Dance Floor, 3'x 3', Outdoor</td>
-                    <td>$25.00</td>
-                </tr>
-                
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Pipe & Drape (set of 3) DRAPE ONLY</td>
-                    <td>$100.00</td>
-                </tr>
-                
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Pipe & Drape, 3' x 10'</td>
-                    <td>$15.00</td>
-                </tr>
-                
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Pipe & Drape, 8' x 10' Black</td>
-                    <td>$60.00</td>
-                </tr>
-                
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Pipe & Drape, 8' x 10' Blue</td>
-                    <td>$60.00</td>
-                </tr>
-                
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Pipe & Drape, 8' x 10' White</td>
-                    <td>$60.00</td>
-                </tr>
-                
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Pipe & Drape, 8' x 10' FRAME ONLY</td>
-                    <td>$40.00</td>
-                </tr>
-                
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Pipe & Drape, SPREADER</td>
-                    <td>$10.00</td>
-                </tr>
-                
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Pipe & Drape, UPRIGHT</td>
-                    <td>$10.00</td>
-                </tr>
-                
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Pipe & Drape, BASE SMALL</td>
-                    <td>$10.00</td>
-                </tr>
-                
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Pipe & Drape, BASE LARGE</td>
-                    <td>$10.00</td>
-                </tr>
-                
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Pipe & Drape, BASE XL</td>
-                    <td>$10.00</td>
-                </tr>
-                
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Stage Steps 24" High Metal Rails</td>
-                    <td>$45.00</td>
-                </tr>
-                
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Stage, Platform, 4'x 8', 24" High</td>
-                    <td>$125.00</td>
-                </tr>
-                
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Stage, Platform, 4'x 8', 24" High Carpeted</td>
-                    <td>$145.00</td>
-                </tr>
-                
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Stage, Platform, 4'x 8', 24" High New Wood</td>
-                    <td>$135.00</td>
-                </tr>
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Stage, Steps 24" High</td>
-                    <td>$25.00</td>
-                </tr>
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Stanchion, Chrome</td>
-                    <td>$8.00</td>
-                </tr>
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Stanchions, Velvet Rope Blue</td>
-                    <td>$6.00</td>
-                </tr>
-                <tr>
-                    {/* <td>Image</td> */}
-                    <td>Staging</td>
-                    <td>Stanchions, Velvet Rope Red</td>
-                    <td>$6.00</td>
-                </tr>
-            </tbody>
-        </Table>
-        </>
-    );
+const AuburnEventPage = () => {
+  return (
+    <div>
+      <h1>Experience Auburn, CA with United Party Rentals</h1>
+      <meta name="description" content="Elevate your Auburn, CA events to new heights with United Party Rentals. Discover premium party rentals and personalized services for unforgettable occasions." />
+
+      <p>Are you gearing up for a memorable event in the beautiful city of Auburn, California? Look no further than United Party Rentals, your trusted partner in turning ordinary gatherings into extraordinary memories. With our premium rentals and personalized services, we're here to ensure your Auburn event stands out as an exceptional and unique experience.</p>
+
+      <h2>Elegant Seating and Decor for Unforgettable Moments</h2>
+      <p>The heart of any successful event is the comfort and style offered to your guests. Our diverse selection of seating and decor options caters to every theme and ambiance. Whether it's a romantic wedding, a lively birthday celebration, or a corporate conference, our elegant seating and decor ensure your Auburn event is both comfortable and visually stunning.</p>
+
+      <h2>Your Creative Event Partner, Not Just Rentals</h2>
+      <p>United Party Rentals goes beyond being just a rental provider – we are your creative event partner. Our unwavering commitment to customer satisfaction means we collaborate closely with you to select the perfect equipment that harmonizes with your unique vision. We take pride in our meticulous setup, ensuring that every detail is flawless, resulting in a seamless and unforgettable experience for your Auburn event.</p>
+
+      <h2>Discover a World of Party Rentals in Auburn</h2>
+      <p>Our services encompass much more than just seating and decor. Whether you're planning a children's extravaganza, organizing a vibrant community festival, or hosting a sophisticated corporate symposium, our comprehensive range of party rentals has got you covered. From enchanting tents to captivating decorative elements, we offer a complete solution for all your Auburn event needs.</p>
+
+      <h2>Why Choose United Party Rentals in Auburn?</h2>
+      <p>Reliability: Serving Auburn and the surrounding areas for years, we've earned the trust of our community as the top "party rentals" provider.</p>
+      <p>Quality Assurance: Our rental items are meticulously maintained, ensuring top-notch quality and an impeccable appearance for your event.</p>
+      <p>Customer-Centric Approach: We customize our rental packages to meet your specific requirements and budget, ensuring that your event becomes a unique reflection of your vision.</p>
+
+      <h2>Create Cherished Auburn Memories with Us</h2>
+      <p>Event planning can be a demanding endeavor, but with United Party Rentals as your dedicated ally, you can concentrate on creating cherished memories. Contact us today for an enchanting and unforgettable event in Auburn, California with the finest "party rentals" available.</p>
+    </div>
+  );
 }
 
-export default Staging;
+export default AuburnEventPage;

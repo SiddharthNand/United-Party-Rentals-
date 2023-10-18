@@ -3,7 +3,7 @@ import React from 'react';
 function Lodi() {
   return (
     <div>
-      <h1>Crafting Dreams into Reality: United Party Rentals, Your Lodi, CA Event-Enhancing Partner</h1>
+      <h1>Crafting Dreams into Reality: Your Lodi, CA Event-Enhancing Partner</h1>
       <p>
         Are you envisioning an exceptional event in the dynamic city of Lodi, CA? Look no further! United Party Rentals, your dedicated ally in creating lasting memories, stands ready to assist. Whether it's a wedding that radiates love, a birthday celebration bursting with joy, a corporate gathering that means business, or any unique occasion, our expertise and extensive resources are at your disposal. In this enlightening blog post, we'll delve into what distinguishes United Party Rentals as the premier choice for discerning event planners in Lodi, CA, and explore the array of services we offer.
       </p>
