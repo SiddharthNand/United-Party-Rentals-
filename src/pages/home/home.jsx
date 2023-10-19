@@ -42,7 +42,7 @@ export default function Home() {
                     </p><br></br>
                 </div>
                 <a href="tel:+19164248300" className="contact">Call Us!</a>
-                <a href="upr_inc@yahoo.com" className="contact">Email Us!</a>
+                <a href="mailto:upr_inc@yahoo.com" className="contact">Email Us!</a>
 
             </div>
 
