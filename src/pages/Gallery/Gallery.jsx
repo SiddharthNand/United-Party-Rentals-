@@ -1,6 +1,7 @@
 import React from 'react';
 import LazyLoad from 'react-lazyload';
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
+import "./Gallery.css"
 
 const images = [
   "https://i.imgur.com/Jh4532I.png",
@@ -89,3 +90,84 @@ const Gallery = () => {
 };
 
 export default Gallery;
+
+
+
+// import React from 'react';
+// import LazyLoad from 'react-lazyload';
+// import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+
+// const images = [
+//   // ... (your image URLs here)
+// ];
+
+// const deliveryImages = [
+//   // ... (images related to delivery)
+// ];
+
+// const showroomImages = [
+//   // ... (images related to showroom)
+// ];
+
+// const rentalsImages = [
+//   // ... (images related to rentals)
+// ];
+
+// const Gallery = () => {
+//   return (
+//     <div style={{ padding: '10px' }}>
+//       <div>
+//         <h2>Delivery</h2>
+//         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
+//           <Masonry gutter="20px">
+//             {deliveryImages.map((image, i) => (
+//               <LazyLoad key={i}>
+//                 <img
+//                   src={image}
+//                   style={{ width: '100%', display: 'block' }}
+//                   alt=""
+//                 />
+//               </LazyLoad>
+//             ))}
+//           </Masonry>
+//         </ResponsiveMasonry>
+//       </div>
+
+//       <div>
+//         <h2>Showroom</h2>
+//         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
+//           <Masonry gutter="20px">
+//             {showroomImages.map((image, i) => (
+//               <LazyLoad key={i}>
+//                 <img
+//                   src={image}
+//                   style={{ width: '100%', display: 'block' }}
+//                   alt=""
+//                 />
+//               </LazyLoad>
+//             ))}
+//           </Masonry>
+//         </ResponsiveMasonry>
+//       </div>
+
+//       <div>
+//         <h2>Our Rentals</h2>
+//         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
+//           <Masonry gutter="20px">
+//             {rentalsImages.map((image, i) => (
+//               <LazyLoad key={i}>
+//                 <img
+//                   src={image}
+//                   style={{ width: '100%', display: 'block' }}
+//                   alt=""
+//                 />
+//               </LazyLoad>
+//             ))}
+//           </Masonry>
+//         </ResponsiveMasonry>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Gallery;

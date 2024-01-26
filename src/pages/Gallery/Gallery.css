@@ -1,0 +1,11 @@
+.gallery-container {
+    padding: 10px;
+  }
+  
+  .gallery-image {
+    width: 300px;
+    height: 300px; /* Maintain aspect ratio */
+    display: block;
+    margin-bottom: 20px; /* Adjust as needed for spacing */
+  }
+  
