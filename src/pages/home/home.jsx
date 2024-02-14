@@ -1,5 +1,8 @@
 import "./home.css"
 import ImageCarousel from "../../components/ImageCarousel/ImageCarousel";
+import GoogleTour from "../../components/GoogleTour/GoogleTour";
+import GoogleMaps from "../../components/GoogleMaps/GoogleMaps";
+import ImageRow from "../../components/ImageRow/ImageRow";
 import React from 'react';
 // import GalleryCarousel from "../../components/GalleryCarousel/GalleryCarousel";
 // import Contact from "../Contact/Contact";
@@ -43,6 +46,9 @@ export default function Home() {
                 </div>
                 <a href="tel:+19164248300" className="contact">Call Us!</a>
                 <a href="mailto:upr_inc@yahoo.com" className="contact">Email Us!</a>
+<br></br>
+
+<ImageRow /> 
 
             </div>
 
@@ -104,7 +110,17 @@ export default function Home() {
             </div>
 
             </div>
-            <ImageCarousel />
+             <GoogleMaps />
+             <br></br>
+             <br></br>
+             <br></br>
+
+            <GoogleTour />
+             <br></br>
+             <br></br>
+             <br></br>
+             
+             <ImageCarousel />
 
 
         </>
