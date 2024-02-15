@@ -26,6 +26,7 @@ import Clarksburg from './cities/Clarksburg/Clarksburg'
 import Courtland from './cities/Courtland/Courtland'
 import Davis from './cities/Davis/Davis'
 import Dixon from './cities/Dixon/Dixon'
+import EldoradoHills from './cities/EldoradoHills/EldoradoHills'
 import ElkGrove from './cities/ElkGrove/ElkGrove'
 import Folsom from './cities/Folsom/Folsom'
 import Galt from './cities/Galt/Galt'
@@ -95,6 +96,7 @@ function App() {
           <Route path="/Courtland" element={<Courtland />} />
           <Route path="/Davis" element={<Davis />} />
           <Route path="/Dixon" element={<Dixon />} />
+          <Route path="/EldoradoHills" element={<EldoradoHills />} />
           <Route path="/ElkGrove" element={<ElkGrove />} />
           <Route path="/Folsom" element={<Folsom />} />
           <Route path="/Galt" element={<Galt />} />

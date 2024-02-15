@@ -38,6 +38,16 @@ export default function Footer() {
               </span>
             </a>
           </li>
+          <li class="icon insta">
+            <a href="https://www.instagram.com/upr.sac/?hl=en" target="_blank" rel="noreferrer">
+              <span class="tooltip">Instagram</span>
+              <span><img src="https://i.imgur.com/LfIQDWg.png"
+                alt='insta'
+                height="30px"
+              />
+              </span>
+            </a>
+          </li>
         </ul>
       </div>
       <p>Copyright © 2022 United Party Rentals

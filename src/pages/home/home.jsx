@@ -90,6 +90,7 @@ export default function Home() {
                     <li><a href="/Courtland" className="area-link btn">Courtland, CA</a></li>
                     <li><a href="/Davis" className="area-link btn">Davis, CA</a></li>
                     <li><a href="/Dixon" className="area-link btn">Dixon, CA</a></li>
+                    <li><a href="/EldoradoHills" className="area-link btn">El Dorado Hills, CA</a></li>
                     <li><a href="/ElkGrove" className="area-link btn">Elk Grove, CA</a></li>
                     <li><a href="/Folsom" className="area-link btn">Folsom, CA</a></li>
                     <li><a href="/Galt" className="area-link btn">Galt, CA</a></li>

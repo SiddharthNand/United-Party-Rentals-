@@ -59,43 +59,47 @@ export default function NavBar() {
                 <tr>
                   <td><NavDropdown.Item href="/Dixon" className='dropdown'>Dixon, CA
                   </NavDropdown.Item></td>
-                  <td><NavDropdown.Item href="/ElkGrove" className='dropdown'>Elk Grove, CA
+                  <td><NavDropdown.Item href="/EldoradoHills" className='dropdown'>El Dorado Hills, CA
                   </NavDropdown.Item></td>
                 </tr>
                 <tr>
+                <td><NavDropdown.Item href="/ElkGrove" className='dropdown'>Elk Grove, CA
+                  </NavDropdown.Item></td>
                   <td><NavDropdown.Item href="/Folsom" className='dropdown'>Folsom, CA
                   </NavDropdown.Item></td>
+                </tr>
+                <tr>
                   <td><NavDropdown.Item href="/Galt" className='dropdown'>Galt, CA
-                  </NavDropdown.Item></td>
-                </tr>
-                <tr>
+                  </NavDropdown.Item></td>                  
                   <td><NavDropdown.Item href="/GraniteBay" className='dropdown'>Granite Bay, CA</NavDropdown.Item></td>
-                  <td><NavDropdown.Item href="/Lincoln" className='dropdown'>Lincoln, CA</NavDropdown.Item></td>
-
                 </tr>
                 <tr>
+                  <td><NavDropdown.Item href="/Lincoln" className='dropdown'>Lincoln, CA</NavDropdown.Item></td>
                   <td><NavDropdown.Item href="/Lodi" className='dropdown'>Lodi, CA</NavDropdown.Item></td>
-                  <td><NavDropdown.Item href="/Loomis" className='dropdown'>Loomis, CA</NavDropdown.Item></td>
                 </tr>
+                <tr>
+                  <td><NavDropdown.Item href="/Loomis" className='dropdown'>Loomis, CA</NavDropdown.Item></td>
                 <td><NavDropdown.Item href="/RanchoCordova" className='dropdown'>Rancho Cordova, CA
                 </NavDropdown.Item></td>
+                </tr>
                 <td><NavDropdown.Item href="/Rocklin" className='dropdown'>Rocklin, CA
                 </NavDropdown.Item></td>
+                <td><NavDropdown.Item href="/Roseville" className='dropdown'>Roseville, CA
+                  </NavDropdown.Item></td>
                 <tr>
                 </tr>
                 <tr>
-                  <td><NavDropdown.Item href="/Roseville" className='dropdown'>Roseville, CA
-                  </NavDropdown.Item></td>
                   <td><NavDropdown.Item href="/Sacramento" className='dropdown'>Sacramento, CA
                   </NavDropdown.Item></td>
-                </tr>
-                <tr>
                   <td><NavDropdown.Item href="/WalnutGrove" className='dropdown'>Walnut Grove, CA
                   </NavDropdown.Item></td>
-                  <td><NavDropdown.Item href="/WestSacramento" className='dropdown'>West Sacramento, CA</NavDropdown.Item></td>
                 </tr>
                 <tr>
+                  <td><NavDropdown.Item href="/WestSacramento" className='dropdown'>West Sacramento, CA</NavDropdown.Item></td>
+                
                   <td><NavDropdown.Item href="/Wilton" className='dropdown'>Wilton, CA</NavDropdown.Item></td>
+                </tr>
+                <tr>
                   <td><NavDropdown.Item href="/Woodland" className='dropdown'>Woodland, CA</NavDropdown.Item></td>
                 </tr>
               </table>
